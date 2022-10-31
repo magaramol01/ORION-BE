@@ -99,6 +99,7 @@ const createServer = (options) => {
     server.register(require('./api/routes/fleetRoutes'), {prefix: serverName});
     server.register(require('./api/routes/vesselGroupRoutes'), {prefix: serverName});
     server.register(require('./api/routes/pdfRoutes'), {prefix: serverName});
+    server.register(require('./api/routes/moblieApplicationRouter'), {prefix: serverName});
 
    
     

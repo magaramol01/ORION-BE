@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const serverPath = './../appSettings2.json';
 const localPath = __dirname + '/../../config/appSettings.json';
-const filePath = serverPath;
+const filePath = localPath;
 
 let file = fs.readFileSync(filePath);
 let appSettingsJsonData = JSON.parse(file);
