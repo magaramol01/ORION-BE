@@ -1,0 +1,157 @@
+{
+    "widget_7.1": {
+        "name": "All Vessels Filter",
+        "type": "fleet_dash_all_vessels_filter",
+        "screen": "Screen7",
+        "socketId": "subscribeToFleetDashboard",
+        "layout": {
+            "i": "widget_7.1",
+            "x": 0,
+            "y": 0,
+            "h": 141,
+            "w": 1.6,
+            "minW": 2,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "All Vessels Filter",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {}
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_7.2": {
+        "name": "All Vessels Leaflet Windy Map",
+        "type": "all_vessel_leaflet_map",
+        "screen": "Screen7",
+        "socketId": "subscribeToFleetDashboard",
+        "layout": {
+            "i": "widget_7.2",
+            "x": 2,
+            "y": 0,
+            "h": 201,
+            "w": 10.4,
+            "minW": 3,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "All Vessels Leaflet Windy Map",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {}
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_7.3": {
+        "name": "Parameters Filter",
+        "type": "fleet_dash_parameters_filter",
+        "screen": "Screen7",
+        "socketId": "subscribeToFleetDashboard",
+        "layout": {
+            "i": "widget_7.3",
+            "x": 0,
+            "y": 140,
+            "h": 221,
+            "w": 1.6,
+            "minW": 2,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Parameters Filter",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {}
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_7.4": {
+        "name": "All Vessels Parameters Info Panel",
+        "type": "all_vessel_parameters_info_panel",
+        "screen": "Screen7",
+        "socketId": "subscribeToFleetDashboard",
+        "layout": {
+            "i": "widget_7.4",
+            "x": 2,
+            "y": 200,
+            "h": 161,
+            "w": 10.4,
+            "minW": 3,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "All Vessels Parameters Info Panel",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {}
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    }
+}

@@ -1,0 +1,1040 @@
+{
+    "widget_4.1": {
+        "name": "Dashboard Home Carousel",
+        "type": "gauges_home_gauges_stripe",
+        "screen": "Screen3",
+        "socketId": "subscribeToMainGauges",
+        "layout": {
+            "i": "widget_4.1",
+            "x": 0,
+            "y": 0,
+            "h": 125,
+            "w": 12,
+            "minW": 11,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {
+                    "noOfGaugesInRow": 8,
+                    "gaugesData": {
+                        "gauge1": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.9",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "°C"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.17",
+                                    "caption": "",
+                                    "value": "600",
+                                    "unit": "°C"
+                                }
+                            },
+                            "renderTo": "unit_1",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.1",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "T/C OUT EXH GAS TEMP",
+                                "value": "mapping_@_AI030504SLD",
+                                "unit": "°C"
+                            },
+                            "minValue": 0,
+                            "maxValue": 600,
+                            "lowerBoundValue": 200,
+                            "upperBoundValue": 590,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge2": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.10",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.18",
+                                    "caption": "",
+                                    "value": "4",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_2",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.2",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "NO.1 MAIN AIR RES. PR",
+                                "value": "mapping_@_AI020706",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 4,
+                            "lowerBoundValue": 1.5,
+                            "upperBoundValue": 3.3,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge3": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.11",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "°C"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.19",
+                                    "caption": "",
+                                    "value": "100",
+                                    "unit": "°C"
+                                }
+                            },
+                            "renderTo": "unit_3",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.3",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "M.G.O. SERV.TANK TEMP",
+                                "value": "mapping_@_AI020711",
+                                "unit": "°C"
+                            },
+                            "minValue": 0,
+                            "maxValue": 100,
+                            "lowerBoundValue": 30,
+                            "upperBoundValue": 95,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge4": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.12",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.20",
+                                    "caption": "",
+                                    "value": "4",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_4",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.4",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "NO.2 MAIN AIR RES. PR",
+                                "value": "mapping_@_AI020707",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 4,
+                            "lowerBoundValue": 1.5,
+                            "upperBoundValue": 3.5,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge5": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.13",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.21",
+                                    "caption": "",
+                                    "value": "1.6",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_5",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.5",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "DK. SRV. AIR RES. PR",
+                                "value": "mapping_@_AI020708",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 1.6,
+                            "lowerBoundValue": 0.6,
+                            "upperBoundValue": 1.5,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge6": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.14",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.22",
+                                    "caption": "",
+                                    "value": "4",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_6",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.6",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "AUX. AIR RES. PR",
+                                "value": "mapping_@_AI020709",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 4,
+                            "lowerBoundValue": 1.5,
+                            "upperBoundValue": 3.5,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge7": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.15",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.23",
+                                    "caption": "",
+                                    "value": "1.6",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_7",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.7",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "CTRL. AIR MAIN LINE PR",
+                                "value": "mapping_@_AI020710",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 1.6,
+                            "lowerBoundValue": 0.5,
+                            "upperBoundValue": 1.5,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge8": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.16",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.24",
+                                    "caption": "",
+                                    "value": "1",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_8",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.8",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "MN. CSW P/P OUT PR",
+                                "value": "mapping_@_AI030507",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 1,
+                            "lowerBoundValue": 1.4,
+                            "upperBoundValue": 1.9,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_4.2": {
+        "name": "Dashboard Home Carousel",
+        "type": "gauges_home_gauges_stripe",
+        "screen": "Screen3",
+        "socketId": "subscribeToMainGauges",
+        "layout": {
+            "i": "widget_4.2",
+            "x": 0,
+            "y": 0,
+            "h": 125,
+            "w": 12,
+            "minW": 11,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {
+                    "noOfGaugesInRow": 8,
+                    "gaugesData": {
+                        "gauge1": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.33",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.41",
+                                    "caption": "",
+                                    "value": "1",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_9",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.25",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "JACKET CFW P/P O/L PR",
+                                "value": "mapping_@_AI030508",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 1,
+                            "lowerBoundValue": 0.5,
+                            "upperBoundValue": 0.9,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge2": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.34",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.42",
+                                    "caption": "",
+                                    "value": "1.6",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_10",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.26",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "FIRE MN. LINE PR",
+                                "value": "mapping_@_AI030509",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 1.6,
+                            "lowerBoundValue": 0.6,
+                            "upperBoundValue": 1.5,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge3": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.35",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "kg/h"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.43",
+                                    "caption": "",
+                                    "value": "5000",
+                                    "unit": "kg/h"
+                                }
+                            },
+                            "renderTo": "unit_11",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.27",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "ME FO IN. F.M. FLOW RATE",
+                                "value": "mapping_@_AI03B007",
+                                "unit": "kg/h"
+                            },
+                            "minValue": 0,
+                            "maxValue": 5000,
+                            "lowerBoundValue": 2000,
+                            "upperBoundValue": 4800,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge4": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.36",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "kg/h"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.44",
+                                    "caption": "",
+                                    "value": "5000",
+                                    "unit": "kg/h"
+                                }
+                            },
+                            "renderTo": "unit_12",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.28",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "AE FO IN. F.M. FLOW RATE",
+                                "value": "mapping_@_AI03B011",
+                                "unit": "kg/h"
+                            },
+                            "minValue": 0,
+                            "maxValue": 5000,
+                            "lowerBoundValue": 2000,
+                            "upperBoundValue": 4700,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge5": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.37",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "°C"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.45",
+                                    "caption": "",
+                                    "value": "100",
+                                    "unit": "°C"
+                                }
+                            },
+                            "renderTo": "unit_13",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.29",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "LTFW MN. PIPE TEMP",
+                                "value": "mapping_@_AI030510",
+                                "unit": "°C"
+                            },
+                            "minValue": 0,
+                            "maxValue": 100,
+                            "lowerBoundValue": 40,
+                            "upperBoundValue": 90,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge6": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.38",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "℃"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.46",
+                                    "caption": "",
+                                    "value": "600",
+                                    "unit": "℃"
+                                }
+                            },
+                            "renderTo": "unit_14",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.30",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "T/C BRG. OIL O/L TEMP",
+                                "value": "mapping_@_AI030505SLD",
+                                "unit": "℃"
+                            },
+                            "minValue": 0,
+                            "maxValue": 600,
+                            "lowerBoundValue": 200,
+                            "upperBoundValue": 550,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge7": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.39",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.47",
+                                    "caption": "",
+                                    "value": "0.6",
+                                    "unit": "Mpa"
+                                }
+                            },
+                            "renderTo": "unit_15",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.31",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "T/C BRG. OIL I/L PR",
+                                "value": "mapping_@_AI030506SLD",
+                                "unit": "Mpa"
+                            },
+                            "minValue": 0,
+                            "maxValue": 0.6,
+                            "lowerBoundValue": 0.2,
+                            "upperBoundValue": 0.5,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge8": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.40",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "°C"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.48",
+                                    "caption": "",
+                                    "value": "600",
+                                    "unit": "°C"
+                                }
+                            },
+                            "renderTo": "unit_16",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.32",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "ME T/C IN. EXH GAS TEMP",
+                                "value": "mapping_@_AI030503SLD",
+                                "unit": "°C"
+                            },
+                            "minValue": 0,
+                            "maxValue": 600,
+                            "lowerBoundValue": 200,
+                            "upperBoundValue": 550,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_4.3": {
+        "name": "Dashboard Home Carousel",
+        "type": "gauges_home_gauges_stripe",
+        "screen": "Screen3",
+        "socketId": "subscribeToMainGauges",
+        "layout": {
+            "i": "widget_4.3",
+            "x": 0,
+            "y": 0,
+            "h": 125,
+            "w": 12,
+            "minW": 11,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {
+                    "noOfGaugesInRow": 8,
+                    "gaugesData": {
+                        "gauge1": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.57",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.65",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_17",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.49",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "NO.1 M.G.O.TK VOL.",
+                                "value": "mapping_@_AI03C049",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge2": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.58",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.66",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_18",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.50",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "NO.2 M.G.O.TK VOL.",
+                                "value": "mapping_@_AI03C050",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge3": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.59",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.67",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_19",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.51",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "MGO SERV.TK VOL.",
+                                "value": "mapping_@_AI03C051",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge4": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.60",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.68",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_20",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.52",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "F.O.TK(P) VOL.",
+                                "value": "mapping_@_AI03C052",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge5": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.61",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.69",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_21",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.53",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "F.O.TK(S) VOL.",
+                                "value": "mapping_@_AI03C053",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge6": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.62",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.70",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_22",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.54",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "F.O.TK (C) VOL.",
+                                "value": "mapping_@_AI03C054",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge7": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.63",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.71",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_23",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.55",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "HFO SERV.TK VOL.",
+                                "value": "mapping_@_AI03C055",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        },
+                        "gauge8": {
+                            "col1": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.64",
+                                    "caption": "",
+                                    "value": "0",
+                                    "unit": "m³"
+                                }
+                            },
+                            "col2": {
+                                "widgetData": {
+                                    "widgetId": "WID-3.1.1.72",
+                                    "caption": "",
+                                    "value": "200",
+                                    "unit": "m³"
+                                }
+                            },
+                            "renderTo": "unit_24",
+                            "widgetData": {
+                                "widgetId": "WID-3.1.1.56",
+                                "widgetName": "Semi Circular Gauge Widget",
+                                "caption": "HFO SETT.TK VOL.",
+                                "value": "mapping_@_AI03C056",
+                                "unit": "m³"
+                            },
+                            "minValue": 0,
+                            "maxValue": 200,
+                            "lowerBoundValue": 60,
+                            "upperBoundValue": 190,
+                            "strokeWidth": 3,
+                            "strokeLinecap": "round",
+                            "textSize": "14px",
+                            "textColor": "#2FE3FF",
+                            "pathColor": "rgb(47, 227, 255)",
+                            "trailColor": "#334455",
+                            "circleRatio": 0.5,
+                            "rotation": 0.75
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    }
+}

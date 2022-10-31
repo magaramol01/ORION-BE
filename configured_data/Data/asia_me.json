@@ -1,0 +1,868 @@
+{
+  "widget_4.1": {
+    "name": "Cylinder",
+    "type": "asia_main_engine_cylinder",
+    "screen": "Screen6",
+    "socketId": "subscribeToAsiaMainEngine",
+    "layout": {
+      "i": "25b0c33c-3b2c-4a63-9a11-b43e961bfc94",
+      "x": 0,
+      "y": 0,
+      "h": 223,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Asia Main Engine",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "captions": {
+            "tableData": {
+              "table1": {
+                "group1": {
+                  "caption": "Turbocharger",
+                  "level": 1,
+                  "data": {
+                    "row1": {
+                      "level": 1,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-501",
+                            "caption": "M/E EXH. GAS BEFORE T/C TEMP. HIGH",
+                            "value": "mapping_@_t05014",
+                            "unit": "°C"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-502",
+                            "caption": "M/E EXH. GAS AFTER T/C TEMP. HIGH",
+                            "value": "mapping_@_t05016",
+                            "unit": "°C"
+                          }
+                        }
+                      }
+                    },
+                    "row2": {
+                      "level": 2,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-503",
+                            "caption": "M/E T/C1 BEARING L.O OUTLET TEMP. HIGH",
+                            "value": "mapping_@_t03018",
+                            "unit": "℃"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-50",
+                            "caption": "M/E T/C1 BEARING L.O INLET PRESSURE LOW",
+                            "value": "mapping_@_t03020",
+                            "unit": "bar"
+                          }
+                        }
+                      }
+                    },
+                    "row3": {
+                      "level": 3,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-4.1.1.3",
+                            "caption": "T/C RPM SIGNAL",
+                            "value": "mapping_@_t01008",
+                            "unit": "rpm"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-4.1.1.7",
+                            "caption": "T/C L.O INLET PRESSURE",
+                            "value": "mapping_@_t18007",
+                            "unit": "bar"
+                          }
+                        }
+                      }
+                    }
+
+                  }
+                }
+              }
+            },
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-301",
+                "caption": "M/E JCFW  OUT T (°C)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-303",
+                "caption": " EXH.GAS OUTLET TEMP(°C)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-303",
+                "caption": "EXH GAS TEMP DEV(°C)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-304",
+                "caption": "SCAV AIR TEMP(FIRE)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-303",
+                "caption": "PCO OUTLET TEMP(°C)",
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "cyl1": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-321",
+                "caption": "",
+                "value": "mapping_@_t04005",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-322",
+                "caption": "",
+                "value": "mapping_@_t05001",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-323",
+                "caption": "",
+                "value": "mapping_@_t05007",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-324",
+                "caption": "",
+                "value": "mapping_@_t05018",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-323",
+                "caption": "",
+                "value": "mapping_@_t03010",
+                "unit": ""
+              }
+            }
+          },
+          "cyl2": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-341",
+                "caption": "",
+                "value": "mapping_@_t04006",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-342",
+                "caption": "",
+                "value": "mapping_@_t05002",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_t05008",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-344",
+                "caption": "",
+                "value": "mapping_@_t05019",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_t03011",
+                "unit": ""
+              }
+            }
+          },
+          "cyl3": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-361",
+                "caption": "",
+                "value": "mapping_@_t04007",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-362",
+                "caption": "",
+                "value": "mapping_@_t05003",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-363",
+                "caption": "",
+                "value": "mapping_@_t05009",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-364",
+                "caption": "",
+                "value": "mapping_@_t05020",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_t03012",
+                "unit": ""
+              }
+            }
+          },
+          "cyl4": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-381",
+                "caption": "",
+                "value": "mapping_@_t04008",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-382",
+                "caption": "",
+                "value": "mapping_@_t05004",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-383",
+                "caption": "",
+                "value": "mapping_@_t05010",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-384",
+                "caption": "",
+                "value": "mapping_@_t05021",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_t03013",
+                "unit": ""
+              }
+            }
+          },
+          "cyl5": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-401",
+                "caption": "",
+                "value": "mapping_@_t04009",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-402",
+                "caption": "",
+                "value": "mapping_@_t05005",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-403",
+                "caption": "",
+                "value": "mapping_@_t05011",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-404",
+                "caption": "",
+                "value": "mapping_@_t05022",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_t03014",
+                "unit": ""
+              }
+            }
+          },
+
+          "propeller": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-651",
+                "caption": "INTERMEDIATE SHAFT BEARING TEMP.",
+                "value": "mapping_@_t06005",
+                "unit": "°C"
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-652",
+                "caption": "THRUST BRG. FWD.",
+                "value": "mapping_@_t03030",
+                "unit": "°C"
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-653",
+                "caption": "STERN TUBE AFT BRG.",
+                "value": "mapping_@_t06001",
+                "unit": "°C"
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-654",
+                "caption": "",
+                "value": "mapping_@_",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-655",
+                "caption": "",
+                "value": "mapping_@_",
+                "unit": ""
+              }
+            },
+            "value6": {
+              "widgetData": {
+                "widgetId": "WID-656",
+                "caption": "M/E SHAFT POWER",
+                "value": "mapping_@_t15085",
+                "unit": "kW"
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+
+  "widget_4.2": {
+    "name": "Main Engine Accordion",
+    "type": "asia_main_engine_accordion",
+    "screen": "Screen6",
+    "socketId": "subscribeToAsiaMainEngine",
+    "layout": {
+      "i": "b2fd6gg4-8a18-42d4-108a-2b82d51b845d",
+      "x": 0,
+      "y": 222,
+      "h": 138,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 26,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Asia Main Engine",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "carousel1": {
+            "acc1": {
+              "level": 1,
+              "widgetData": {
+                "widgetId": "WID-140",
+                "caption": "",
+                "value": "",
+                "unit": ""
+              },
+              "accordionName": "main-engine-1",
+              "iconClass": "",
+              "type": 4,
+              "tableData": {
+                "table1": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-501",
+                              "caption": "RPM SETP POINT TO GOVERNOR",
+                              "value": "mapping_@_t01038",
+                              "unit": "rpm"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-502",
+                              "caption": "ME RPM ",
+                              "value": "mapping_@_t01037",
+                              "unit": "rpm"
+                            }
+                          }
+                        }
+                      },
+                      "row2": {
+                        "level": 2,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-503",
+                              "caption": "STARTING AIR INLET PRS LOW",
+                              "value": "mapping_@_t01040",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-504",
+                              "caption": "CYLINDER COOLING WATER INLET PRS",
+                              "value": "mapping_@_t18001",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row3": {
+                        "level": 3,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-505",
+                              "caption": "SCAV. AIR COOL. WATER INLET PRS",
+                              "value": "mapping_@_t18002",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-506",
+                              "caption": "MAIN BEARING L.O & P.C.O INLET PRS",
+                              "value": "mapping_@_t18003",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row4": {
+                        "level": 4,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-507",
+                              "caption": "F.O INLET PRS",
+                              "value": "mapping_@_t18004",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-508",
+                              "caption": "EXH. VALVE AIR SPRING INLET PRS",
+                              "value": "mapping_@_t18005",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row5": {
+                        "level": 5,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-509",
+                              "caption": "CONTROL INLET PRS",
+                              "value": "mapping_@_t18006",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-510",
+                              "caption": "T/C L.O INLET PRS",
+                              "value": "mapping_@_t18007",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row6": {
+                        "level": 6,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-511",
+                              "caption": "NO.1 MAIN AIR RES PRS",
+                              "value": "mapping_@_t18008",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-512",
+                              "caption": "NO.2 MAIN AIR RES PRS",
+                              "value": "mapping_@_t18009",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "table2": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-513",
+                              "caption": "SCAV AIR PRS",
+                              "value": "mapping_@_t18011",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-514",
+                              "caption": "M/E LOAD",
+                              "value": "mapping_@_t01172",
+                              "unit": "%"
+                            }
+                          }
+                        }
+                      },
+                      "row2": {
+                        "level": 2,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-515",
+                              "caption": "FUEL COMMAND SPEED CONTROL",
+                              "value": "mapping_@_t01041",
+                              "unit": "%"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-516",
+                              "caption": "FUEL COMMAND USED FOR INJ",
+                              "value": "mapping_@_t01042",
+                              "unit": "%"
+                            }
+                          }
+                        }
+                      },
+                      "row3": {
+                        "level": 3,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-517",
+                              "caption": "SCAV AIR PRS MEAN VALVE",
+                              "value": "mapping_@_t01043",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-518",
+                              "caption": "SCAV AIR PRS SENSOR #1",
+                              "value": "mapping_@_t01044",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row4": {
+                        "level": 4,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-519",
+                              "caption": "SCAV AIR PRS SENSOR #2",
+                              "value": "mapping_@_t01045",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-520",
+                              "caption": "SERVO OIL PRS SETPOINT",
+                              "value": "mapping_@_t01046",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row5": {
+                        "level": 5,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-521",
+                              "caption": "SERVO OIL PRS MEAN VALVE",
+                              "value": "mapping_@_t01047",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-522",
+                              "caption": "SERVO OIL PRS SENSOR #1",
+                              "value": "mapping_@_t01048",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row6": {
+                        "level": 6,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-523",
+                              "caption": "SERVO OIL PRS SENSOR #2",
+                              "value": "mapping_@_t01049",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-524",
+                              "caption": "FUEL RAIL PRS SETPOINT",
+                              "value": "mapping_@_t01050",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "table3": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-525",
+                              "caption": "FUEL RAIL PRS MEAN VALVE",
+                              "value": "mapping_@_t01051",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-526",
+                              "caption": "FUEL RAIL PRS SENSOR #1",
+                              "value": "mapping_@_t01052",
+                              "unit": "bar"
+                            }
+                          }
+                        }
+                      },
+                      "row2": {
+                        "level": 2,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-527",
+                              "caption": "FUEL RAIL PRS SENSOR #2",
+                              "value": "mapping_@_t01053",
+                              "unit": "bar"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-528",
+                              "caption": "FUEL RAIL PRS ACTUATOR OUTPUT",
+                              "value": "mapping_@_t01054",
+                              "unit": "%"
+                            }
+                          }
+                        }
+                      },
+                      "row3": {
+                        "level": 3,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-529",
+                              "caption": "ESTIMATED POWER(FUEL COMMAND X RPM)",
+                              "value": "mapping_@_t01055",
+                              "unit": "%"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-530",
+                              "caption": "EXHAUST VALVE OPENING ANGLE",
+                              "value": "mapping_@_t01056",
+                              "unit": "°"
+                            }
+                          }
+                        }
+                      },
+                      "row4": {
+                        "level": 4,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-531",
+                              "caption": "EXHAUST VALVE CLOSING ANGLE",
+                              "value": "mapping_@_t01057",
+                              "unit": "°"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-532",
+                              "caption": "NUMBER OF ACTIVE INJ NOZZLES",
+                              "value": "mapping_@_t01062",
+                              "unit": "EA"
+                            }
+                          }
+                        }
+                      },
+                      "row5": {
+                        "level": 5,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-533",
+                              "caption": "INJ BEGIN",
+                              "value": "mapping_@_t01060",
+                              "unit": "°"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-534",
+                              "caption": "INJ TIMING AVERAGE VALUE",
+                              "value": "mapping_@_t01061",
+                              "unit": "msec"
+                            }
+                          }
+                        }
+                      },
+                      "row6": {
+                        "level": 6,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-535",
+                              "caption": "",
+                              "value": "mapping_@_",
+                              "unit": ""
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-536",
+                              "caption": "",
+                              "value": "mapping_@_",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  }
+}

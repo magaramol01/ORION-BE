@@ -1,0 +1,990 @@
+{
+  "widget_21": {
+    "name": "Gauge Cylinder",
+    "type": "gauge_cylinder",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_21",
+      "x": 0,
+      "y": 0,
+      "h": 118,
+      "w": 9,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Main Gauges",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "captions": {
+            "value1": "Exh. gas out temp",
+            "value2": "Exh. gas deviation temp",
+            "value3": "Cyl. cover CW outlet temp",
+            "value4": "JCFW outlet temp",
+            "value5": "Scav. air temp",
+            "value6": "PCO outlet temp",
+            "value7": "PCO non flow"
+          },
+          "cyl1": {
+            "value1": "mapping_@_VIK3",
+            "value2": "mapping_@_VIK4",
+            "value3": "mapping_@_VIK5",
+            "value4": "mapping_@_VIK6",
+            "value5": "mapping_@_VIK7",
+            "value6": "mapping_@_VIK8",
+            "value7": "mapping_@_VIK9"
+          },
+          "cyl2": {
+            "value1": "mapping_@_VIK10",
+            "value2": "mapping_@_VIK11",
+            "value3": "mapping_@_VIK12",
+            "value4": "mapping_@_VIK13",
+            "value5": "mapping_@_VIK14",
+            "value6": "mapping_@_VIK15",
+            "value7": "mapping_@_VIK16"
+          },
+          "cyl3": {
+            "value1": "mapping_@_VIK3",
+            "value2": "mapping_@_VIK4",
+            "value3": "mapping_@_VIK5",
+            "value4": "mapping_@_VIK6",
+            "value5": "mapping_@_VIK7",
+            "value6": "mapping_@_VIK8",
+            "value7": "mapping_@_VIK9"
+          },
+          "cyl4": {
+            "value1": "mapping_@_VIK10",
+            "value2": "mapping_@_VIK11",
+            "value3": "mapping_@_VIK12",
+            "value4": "mapping_@_VIK13",
+            "value5": "mapping_@_VIK14",
+            "value6": "mapping_@_VIK15",
+            "value7": "mapping_@_VIK16"
+          },
+          "cyl5": {
+            "value1": "mapping_@_VIK3",
+            "value2": "mapping_@_VIK4",
+            "value3": "mapping_@_VIK5",
+            "value4": "mapping_@_VIK6",
+            "value5": "mapping_@_VIK7",
+            "value6": "mapping_@_VIK8",
+            "value7": "mapping_@_VIK9"
+          },
+          "cyl6": {
+            "value1": "mapping_@_VIK10",
+            "value2": "mapping_@_VIK11",
+            "value3": "mapping_@_VIK12",
+            "value4": "mapping_@_VIK13",
+            "value5": "mapping_@_VIK14",
+            "value6": "mapping_@_VIK15",
+            "value7": "mapping_@_VIK16"
+          },
+          "cyl7": {
+            "value1": "mapping_@_VIK3",
+            "value2": "mapping_@_VIK4",
+            "value3": "mapping_@_VIK5",
+            "value4": "mapping_@_VIK6",
+            "value5": "mapping_@_VIK7",
+            "value6": "mapping_@_VIK8",
+            "value7": "mapping_@_VIK9"
+          },
+          "cyl8": {
+            "value1": "mapping_@_VIK10",
+            "value2": "mapping_@_VIK11",
+            "value3": "mapping_@_VIK12",
+            "value4": "mapping_@_VIK13",
+            "value5": "mapping_@_VIK14",
+            "value6": "mapping_@_VIK15",
+            "value7": "mapping_@_VIK16"
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_22": {
+    "name": "Observant",
+    "type": "observant",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_22",
+      "x": 9,
+      "y": 0,
+      "h": 291,
+      "w": 3,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Alerting",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "526"
+        },
+        "observantType": "alarm",
+        "observantColor": "red"
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_23": {
+    "name": "Custom Bar Gauge List",
+    "type": "custom_bar_gauge_list",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_23",
+      "x": 0,
+      "y": 117,
+      "h": 174.5,
+      "w": 9,
+      "minW": 3,
+      "minH": 16.7,
+      "maxW": 12,
+      "maxH": 4,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "List",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "configuration": {
+          "isTransparent": false
+        },
+        "data": {
+          "meFoInPress": {
+            "value": "mapping_@_VIK17",
+            "outOfValue": 18,
+            "limitValue": 15,
+            "unit": "bar",
+            "headerText": "ME FO in Press"
+          },
+          "meFoInTemp": {
+            "value": "mapping_@_VIK1",
+            "outOfValue": 200,
+            "limitValue": 150,
+            "unit": "°C",
+            "headerText": "ME FO in Temp"
+          },
+          "meLoInPress": {
+            "value": "mapping_@_VIK11",
+            "outOfValue": 18,
+            "limitValue": 15,
+            "unit": "bar",
+            "headerText": "ME LO in Press"
+          },
+          "meLoInTemp": {
+            "value": "mapping_@_VIK13",
+            "outOfValue": 200,
+            "limitValue": 150,
+            "unit": "°C",
+            "headerText": "ME LO in Temp"
+          },
+          "meCylLoInTemp": {
+            "value": "mapping_@_VIK14",
+            "outOfValue": 200,
+            "limitValue": 150,
+            "unit": "bar",
+            "headerText": "ME Cyl. LO in Temp."
+          },
+          "meTcLoInTemp": {
+            "value": "mapping_@_VIK15",
+            "outOfValue": 200,
+            "limitValue": 150,
+            "unit": "°C",
+            "headerText": "ME T/C LO in Temp."
+          },
+          "jcfwInPress": {
+            "value": "mapping_@_VIK16",
+            "outOfValue": 6,
+            "limitValue": 4,
+            "unit": "bar",
+            "headerText": "JCFW in Press"
+          },
+          "acCfwInPress": {
+            "value": "mapping_@_VIK15",
+            "outOfValue": 6,
+            "limitValue": 4,
+            "unit": "bar",
+            "headerText": "A/C CFW in Press"
+          },
+          "jcwAcrossCylDiffPress": {
+            "value": "mapping_@_VIK16",
+            "outOfValue": 3,
+            "limitValue": 2,
+            "unit": "bar",
+            "headerText": "JCW across cylinders diff. Press"
+          },
+          "jcwAcrossCylCovers": {
+            "value": "mapping_@_VIK18",
+            "outOfValue": 3,
+            "limitValue": 2,
+            "unit": "bar",
+            "headerText": "JCW across cylinders covers and exh. V/V"
+          },
+          "scavAirPress": {
+            "value": "mapping_@_VIK17",
+            "outOfValue": 6,
+            "limitValue": 4,
+            "unit": "bar",
+            "headerText": "Scav. air Press"
+          },
+          "startingAirPress": {
+            "value": "mapping_@_VIK6",
+            "outOfValue": 40,
+            "limitValue": 35,
+            "unit": "bar",
+            "headerText": "Starting air Press"
+          },
+          "exhVVSpringAir": {
+            "value": "mapping_@_VIK17",
+            "outOfValue": 10,
+            "limitValue": 8,
+            "unit": "bar",
+            "headerText": "Exh. V/V spring air Press"
+          },
+          "controlAirInletPress": {
+            "value": "mapping_@_VIK12",
+            "outOfValue": 10,
+            "limitValue": 8,
+            "unit": "bar",
+            "headerText": "Control air inlet Press"
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_24": {
+    "name": "System Table",
+    "type": "system_table",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_24",
+      "x": 0,
+      "y": 290.5,
+      "h": 74.5,
+      "w": 4,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "FO System",
+        "configuration": {
+          "isShow": true
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "130"
+        },
+        "data": {
+          "row1": {
+            "col1": {
+              "caption": "Auto Filt",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK12",
+              "unit": "DPAH",
+              "isIndicator": true
+            }
+          },
+          "row2": {
+            "col1": {
+              "caption": "Manual Filt",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK13",
+              "unit": "DPAH",
+              "isIndicator": true
+            }
+          },
+          "row3": {
+            "col1": {
+              "caption": "Fuel Mode",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK14",
+              "unit": "HFO",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK15",
+              "unit": "MGO",
+              "isIndicator": true
+            }
+          },
+          "row4": {
+            "col1": {
+              "caption": "Viscosity",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK16",
+              "unit": "12.5 cst",
+              "isIndicator": true
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_25": {
+    "name": "System Table",
+    "type": "system_table",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_25",
+      "x": 4,
+      "y": 290.5,
+      "h": 74.5,
+      "w": 4,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "LO System",
+        "configuration": {
+          "isShow": true
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "115"
+        },
+        "data": {
+          "row1": {
+            "col1": {
+              "caption": "WO",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK17",
+              "unit": "AW",
+              "isIndicator": true
+            }
+          },
+          "row2": {
+            "col1": {
+              "caption": "Auto filter",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK18",
+              "unit": "DPAH",
+              "isIndicator": true
+            }
+          },
+          "row3": {
+            "col1": {
+              "caption": "By pass filter",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK1",
+              "unit": "DPAH",
+              "isIndicator": true
+            }
+          },
+          "row4": {
+            "col1": {
+              "caption": "Hyd. cyl unit",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK2",
+              "unit": "LAL",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK3",
+              "unit": "LAH",
+              "isIndicator": true
+            }
+          },
+          "row5": {
+            "col1": {
+              "caption": "Hyd. cyl leak",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK4",
+              "unit": "LAH",
+              "isIndicator": true
+            }
+          },
+          "row6": {
+            "col1": {
+              "caption": "",
+              "value": "",
+              "unit": "LO sump tk level low",
+              "isIndicator": true
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_26": {
+    "name": "System Table",
+    "type": "system_table",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_26",
+      "x": 8,
+      "y": 290.5,
+      "h": 74.5,
+      "w": 4,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Engine Control System",
+        "configuration": {
+          "isShow": true
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "115"
+        },
+        "data": {
+          "row1": {
+            "col1": {
+              "caption": "",
+              "value": "mapping_@_VIK5",
+              "unit": "EICU A power fail",
+              "isIndicator": true
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK6",
+              "unit": "EICU B power fail",
+              "isIndicator": true
+            }
+          },
+          "row2": {
+            "col1": {
+              "caption": "",
+              "value": "mapping_@_VIK7",
+              "unit": "EICU A common alarm",
+              "isIndicator": true
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK8",
+              "unit": "EICU B common alarm",
+              "isIndicator": true
+            }
+          },
+          "row3": {
+            "col1": {
+              "caption": "",
+              "value": "mapping_@_VIK9",
+              "unit": "PSU (DC) A system fail",
+              "isIndicator": true
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK10",
+              "unit": "PSU (DC) B system fail",
+              "isIndicator": true
+            }
+          },
+          "row4": {
+            "col1": {
+              "caption": "",
+              "value": "mapping_@_VIK11",
+              "unit": "No.1 Hyd PP fail",
+              "isIndicator": true
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK12",
+              "unit": "No.2 Hyd PP fail",
+              "isIndicator": true
+            }
+          },
+          "row5": {
+            "col1": {
+              "caption": "",
+              "value": "mapping_@_VIK13",
+              "unit": "No.1 Hyd start-up run",
+              "isIndicator": true
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK14",
+              "unit": "No.2 Hyd start-up run",
+              "isIndicator": true
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_27": {
+    "name": "System Table",
+    "type": "system_table",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_27",
+      "x": 0,
+      "y": 365,
+      "h": 74.5,
+      "w": 4,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "TC System",
+        "configuration": {
+          "isShow": true
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "115"
+        },
+        "data": {
+          "row1": {
+            "col1": {
+              "caption": "",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "No 1",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col3": {
+              "caption": "No 2",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            }
+          },
+          "row2": {
+            "col1": {
+              "caption": "LO in press",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK1",
+              "unit": "bar",
+              "isIndicator": false
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK2",
+              "unit": "bar",
+              "isIndicator": false
+            }
+          },
+          "row3": {
+            "col1": {
+              "caption": "LO out temp",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK3",
+              "unit": "°C",
+              "isIndicator": false
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK4",
+              "unit": "°C",
+              "isIndicator": false
+            }
+          },
+          "row4": {
+            "col1": {
+              "caption": "Exh. gas in temp",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK5",
+              "unit": "°C",
+              "isIndicator": false
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK6",
+              "unit": "°C",
+              "isIndicator": false
+            }
+          },
+          "row5": {
+            "col1": {
+              "caption": "Exh. gas out temp",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK7",
+              "unit": "°C",
+              "isIndicator": false
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK8",
+              "unit": "°C",
+              "isIndicator": false
+            }
+          },
+          "row6": {
+            "col1": {
+              "caption": "RPM",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK9",
+              "unit": "rpm",
+              "isIndicator": false
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK10",
+              "unit": "rpm",
+              "isIndicator": false
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_28": {
+    "name": "System Table",
+    "type": "system_table",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_28",
+      "x": 4,
+      "y": 365,
+      "h": 74.5,
+      "w": 4,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "AUX Boiler",
+        "configuration": {
+          "isShow": true
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "115"
+        },
+        "data": {
+          "row1": {
+            "col1": {
+              "caption": "No 1",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK1",
+              "unit": "RUN",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK3",
+              "unit": "FAIL",
+              "isIndicator": true
+            }
+          },
+          "row2": {
+            "col1": {
+              "caption": "No 2",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK4",
+              "unit": "RUN",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK5",
+              "unit": "FAIL",
+              "isIndicator": true
+            }
+          },
+          "row3": {
+            "col1": {
+              "caption": "No 3",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK6",
+              "unit": "RUN",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK7",
+              "unit": "FAIL",
+              "isIndicator": true
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_29": {
+    "name": "System Table",
+    "type": "system_table",
+    "screen": "Screen3",
+    "socketId": "subscribeToMainGauges",
+    "layout": {
+      "i": "widget_29",
+      "x": 8,
+      "y": 365,
+      "h": 74.5,
+      "w": 4,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43.7,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Aux System",
+        "configuration": {
+          "isShow": true
+        }
+      },
+      "body": {
+        "configuration": {
+          "height": "115"
+        },
+        "data": {
+          "row1": {
+            "col1": {
+              "caption": "Oil mist detector",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK9",
+              "unit": "Fail",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK10",
+              "unit": "High",
+              "isIndicator": true
+            }
+          },
+          "row2": {
+            "col1": {
+              "caption": "Axial vibration",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK11",
+              "unit": "PWR fail",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK12",
+              "unit": "High",
+              "isIndicator": true
+            }
+          },
+          "row3": {
+            "col1": {
+              "caption": "T/V damper",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK13",
+              "unit": "Fail",
+              "isIndicator": true
+            },
+            "col3": {
+              "caption": "",
+              "value": "mapping_@_VIK14",
+              "unit": "PAL",
+              "isIndicator": true
+            }
+          },
+          "row4": {
+            "col1": {
+              "caption": "Shaft voltage high",
+              "value": "",
+              "unit": "",
+              "isIndicator": false
+            },
+            "col2": {
+              "caption": "",
+              "value": "mapping_@_VIK15",
+              "unit": "High",
+              "isIndicator": true
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  }
+}

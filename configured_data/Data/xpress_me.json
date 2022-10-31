@@ -1,0 +1,915 @@
+{
+  "widget_6.1": {
+    "name": "Cylinder",
+    "type": "xpress_main_engine_cylinder",
+    "screen": "Screen6",
+    "socketId": "subscribeToXpressMainEngine",
+    "layout": {
+      "i": "25b0c33c-3b2c-4a63-9a11-b43e961bfc94",
+      "x": 0,
+      "y": 0,
+      "h": 223,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Xpress Main Engine",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "captions": {
+            "tableData": {
+              "table1": {
+                "group1": {
+                  "caption": "Turbocharger",
+                  "level": 1,
+                  "data": {
+                    "row1": {
+                      "level": 1,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-661",
+                            "caption": "EXH. GAS BEFORE T/C 1 TEMP.",
+                            "value": "mapping_@_TC1A",
+                            "unit": "°C"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-662",
+                            "caption": "EXH. GAS AFTER T/C 1 TEMP.",
+                            "value": "mapping_@_TC1B",
+                            "unit": "°C"
+                          }
+                        }
+                      }
+                    },
+                    "row2": {
+                      "level": 2,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-663",
+                            "caption": "EXH. GAS BEFORE T/C 2 TEMP",
+                            "value": "mapping_@_TC2A",
+                            "unit": "℃"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-664",
+                            "caption": "EXH. GAS AFTER T/C 2 TEMP.",
+                            "value": "mapping_@_TC2B",
+                            "unit": "°C"
+                          }
+                        }
+                      }
+                    },
+                    "row3": {
+                      "level": 3,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-665",
+                            "caption": "T/C 1 LUB. OIL TEMP. INLET",
+                            "value": "mapping_@_V009",
+                            "unit": "°C"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-666",
+                            "caption": "T/C 2 LUB. OIL TEMP. INLET",
+                            "value": "mapping_@_V011",
+                            "unit": "°C"
+                          }
+                        }
+                      }
+                    },
+                    "row4": {
+                      "level": 4,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-667",
+                            "caption": "T/C 1 LUB. OIL PRESS. INLET.",
+                            "value": "mapping_@_V010",
+                            "unit": "Mpa"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-668",
+                            "caption": "T/C 2 LUB. OIL PRESS. INLET",
+                            "value": "mapping_@_V012",
+                            "unit": "Mpa"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-301",
+                "caption": "EXHAUST GAS OUTLET TEMP.(℃)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-302",
+                "caption": "SCAVENGE AIR TEMP.(℃)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-303",
+                "caption": "PISTON C.O. OUTLET TEMP.(℃)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-304",
+                "caption": "J. C. W. OUTLET TEMP.(℃)",
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "cyl1": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-321",
+                "caption": "",
+                "value": "mapping_@_CYL-1",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-322",
+                "caption": "",
+                "value": "mapping_@_V033",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-323",
+                "caption": "",
+                "value": "mapping_@_V025",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-324",
+                "caption": "",
+                "value": "mapping_@_V001",
+                "unit": ""
+              }
+            }
+          },
+          "cyl2": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-341",
+                "caption": "",
+                "value": "mapping_@_CYL-2",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-342",
+                "caption": "",
+                "value": "mapping_@_V034",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_V026",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-344",
+                "caption": "",
+                "value": "mapping_@_V002",
+                "unit": ""
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-345",
+                "caption": "",
+                "value": "mapping_@_AI030102SLD",
+                "unit": ""
+              }
+            }
+          },
+          "cyl3": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-361",
+                "caption": "",
+                "value": "mapping_@_CYL-3",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-362",
+                "caption": "",
+                "value": "mapping_@_V035",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-363",
+                "caption": "",
+                "value": "mapping_@_V027",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-364",
+                "caption": "",
+                "value": "mapping_@_V003",
+                "unit": ""
+              }
+            }
+          },
+          "cyl4": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-381",
+                "caption": "",
+                "value": "mapping_@_CYL-4",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-382",
+                "caption": "",
+                "value": "mapping_@_V036",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-383",
+                "caption": "",
+                "value": "mapping_@_V028",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-384",
+                "caption": "",
+                "value": "mapping_@_V004",
+                "unit": ""
+              }
+            }
+          },
+          "cyl5": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-401",
+                "caption": "",
+                "value": "mapping_@_CYL-5",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-402",
+                "caption": "",
+                "value": "mapping_@_V037",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-403",
+                "caption": "",
+                "value": "mapping_@_V029",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-404",
+                "caption": "",
+                "value": "mapping_@_V005",
+                "unit": ""
+              }
+            }
+          },
+          "cyl6": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-421",
+                "caption": "",
+                "value": "mapping_@_CYL-6",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-422",
+                "caption": "",
+                "value": "mapping_@_V038",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-423",
+                "caption": "",
+                "value": "mapping_@_V030",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-424",
+                "caption": "",
+                "value": "mapping_@_V006",
+                "unit": ""
+              }
+            }
+          },
+          "cyl7": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-421",
+                "caption": "",
+                "value": "mapping_@_CYL-7",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-422",
+                "caption": "",
+                "value": "mapping_@_V039",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-423",
+                "caption": "",
+                "value": "mapping_@_V031",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-424",
+                "caption": "",
+                "value": "mapping_@_V007",
+                "unit": ""
+              }
+            }
+          },
+          "propeller": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-651",
+                "caption": "SHAFT BEARING TEMP.",
+                "value": "mapping_@_V237",
+                "unit": "°C"
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-652",
+                "caption": "S/T FWD BRG. TEMP.",
+                "value": "mapping_@_V238",
+                "unit": "°C"
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-653",
+                "caption": "S/T AFT BRG. TEMP.",
+                "value": "mapping_@_V240",
+                "unit": "°C"
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-654",
+                "caption": "AXIAL VIBRATION",
+                "value": "mapping_@_V085",
+                "unit": "mm"
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-655",
+                "caption": "ME THRUST BRG. TEMP",
+                "value": "mapping_@_V044",
+                "unit": "°C"
+              }
+            },
+            "value6": {
+              "widgetData": {
+                "widgetId": "WID-656",
+                "caption": "STERN TUBE OIL TEMP.",
+                "value": "mapping_@_V239",
+                "unit": "°C"
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+
+  "widget_6.2": {
+    "name": "Main Engine Accordion",
+    "type": "xpress_main_engine_accordion",
+    "screen": "Screen6",
+    "socketId": "subscribeToXpressMainEngine",
+    "layout": {
+      "i": "b2fd6gg4-8a18-42d4-108a-2b82d51b845d",
+      "x": 0,
+      "y": 222,
+      "h": 138,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 26,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Xpress Main Engine",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "carousel1": {
+            "acc1": {
+              "level": 1,
+              "widgetData": {
+                "widgetId": "WID-140",
+                "caption": "",
+                "value": "",
+                "unit": ""
+              },
+              "accordionName": "main-engine-1",
+              "iconClass": "",
+              "type": 4,
+              "tableData": {
+                "table1": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-501",
+                              "caption": "M.E. START AIR PRESS.",
+                              "value": "mapping_@_V076",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-502",
+                              "caption": "CONT. AIR INLET PRESS.",
+                              "value": "mapping_@_V071",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      },
+                      "row2": {
+                        "level": 2,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-503",
+                              "caption": "SAFETY AIR INLET PRESS.",
+                              "value": "mapping_@_V072",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-504",
+                              "caption": "MAIN THRUST BRG. INLET L.O. PRESS.",
+                              "value": "mapping_@_V077",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      },
+                      "row3": {
+                        "level": 3,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-505",
+                              "caption": "LUB. OIL INLET TEMP.",
+                              "value": "mapping_@_V045",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-506",
+                              "caption": "FUEL OIL INLET TEMP.",
+                              "value": "mapping_@_V046",
+                              "unit": "°C"
+                            }
+                          }
+                        }
+                      },
+                      "row4": {
+                        "level": 4,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-507",
+                              "caption": "SCAV. AIR RECEIVER TEMP.",
+                              "value": "mapping_@_V047",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-508",
+                              "caption": "SCAV. AIR RECEIVER PRESS.",
+                              "value": "mapping_@_V079",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      },
+                      "row5": {
+                        "level": 5,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-509",
+                              "caption": "C.W. TEMP. BEFORE COOLER 1",
+                              "value": "mapping_@_V042",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-510",
+                              "caption": "C.W. TEMP. BEFORE COOLER 2",
+                              "value": "mapping_@_V043",
+                              "unit": "°C"
+                            }
+                          }
+                        }
+                      },
+                      "row6": {
+                        "level": 6,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-511",
+                              "caption": "M.E. HT C.W. TEMP.",
+                              "value": "mapping_@_V040",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-512",
+                              "caption": "M.E. LT C.W. TEMP.",
+                              "value": "mapping_@_V041",
+                              "unit": "°C"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "table2": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-513",
+                              "caption": "EDG F.O. TEMP. LOW/HIGH",
+                              "value": "mapping_@_V630",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-514",
+                              "caption": "AIR COOLER 1/2 WATER INLET PRESS.",
+                              "value": "mapping_@_V073",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      },
+                      "row2": {
+                        "level": 2,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-515",
+                              "caption": "M.E. J.C.W. INLET PRESS.",
+                              "value": "mapping_@_V074",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-516",
+                              "caption": "F.O. PRESS. AFTER FILTER",
+                              "value": "mapping_@_V078",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      },
+                      "row3": {
+                        "level": 3,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-517",
+                              "caption": "C. W. OUTLET AIR COOLER 1",
+                              "value": "mapping_@_V127",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-518",
+                              "caption": "C. W. OUTLET AIR COOLER 2",
+                              "value": "mapping_@_V128",
+                              "unit": "°C"
+                            }
+                          }
+                        }
+                      },
+                      "row4": {
+                        "level": 4,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-519",
+                              "caption": "SCAV. AIR TEMP. AFTER COOLER 1",
+                              "value": "mapping_@_V129",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-520",
+                              "caption": "SCAV. AIR TEMP. AFTER COOLER 2",
+                              "value": "mapping_@_V130",
+                              "unit": "°C"
+                            }
+                          }
+                        }
+                      },
+                      "row5": {
+                        "level": 5,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-521",
+                              "caption": "SCAV. AIR TEMP. BEF. COOLER 1",
+                              "value": "mapping_@_V125",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-522",
+                              "caption": "SCAV. AIR TEMP. BEF. COOLER 2",
+                              "value": "mapping_@_V126",
+                              "unit": "°C"
+                            }
+                          }
+                        }
+                      },
+                      "row6": {
+                        "level": 6,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-523",
+                              "caption": "C. W. PRESS. BEFORE COOLER 1",
+                              "value": "mapping_@_V133",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-524",
+                              "caption": "C. W. PRESS. BEFORE COOLER 2",
+                              "value": "mapping_@_V134",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "table3": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-525",
+                              "caption": "C. W. INLET AIR COOLER",
+                              "value": "mapping_@_V131",
+                              "unit": "°C"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-526",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      },
+                      "row2": {
+                        "level": 2,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-527",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-528",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      },
+                      "row3": {
+                        "level": 3,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-529",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-530",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      },
+                      "row4": {
+                        "level": 4,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-531",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-532",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      },
+                      "row5": {
+                        "level": 5,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-533",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-534",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      },
+                      "row6": {
+                        "level": 6,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-535",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-536",
+                              "caption": "",
+                              "value": "",
+                              "unit": ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  }
+}

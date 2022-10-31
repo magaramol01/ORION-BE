@@ -1,0 +1,767 @@
+{
+  "widget_10.1": {
+    "name": "Cylinder",
+    "type": "digital_alarm_table",
+    "screen": "Screen10",
+    "socketId": "subscribeToDigitalAlarmME",
+    "layout": {
+      "i": "7bh7b7d7-a8f3-5df5-1g8e-c1711gecf7f6",
+      "x": 0,
+      "y": 0,
+      "h": 305,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 100,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Spar Indus Main Engine",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "digitalalarms": {
+            "col1": {
+              "value1": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.1",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value2": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.2",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value3": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.3",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value4": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.4",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value5": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.5",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value6": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.6",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value7": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.7",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value8": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.8",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value9": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.9",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value10": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.10",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value11": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.11",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value12": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.12",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value13": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.13",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value14": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.14",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value15": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.15",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value16": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.16",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value17": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.17",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value18": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.18",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value19": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.19",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value20": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.20",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              }
+            },
+            "col2": {
+              "value21": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.21",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value22": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.22",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value23": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.23",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value24": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.24",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value25": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.25",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value26": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.26",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value27": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.27",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value28": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.28",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value29": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.29",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value30": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.30",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value31": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.31",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value32": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.32",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value33": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.33",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value34": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.34",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value35": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.35",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value36": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.36",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value37": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.37",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value38": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.38",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value39": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.39",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value40": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.40",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              }
+            },
+            "col3": {
+              "value41": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.41",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value42": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.42",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value43": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.43",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value44": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.44",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value45": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.45",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value46": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.46",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value47": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.47",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value48": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.48",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value49": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.49",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value50": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.50",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value51": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.51",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value52": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.52",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value53": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.53",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value54": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.54",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value55": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.55",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value56": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.56",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value57": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.57",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value58": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.58",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value59": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.59",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value60": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.60",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              }
+            },
+            "col4": {
+              "value61": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.61",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value62": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.62",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value63": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.63",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value64": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.64",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value65": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.65",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value66": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.66",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value67": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.67",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value68": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.68",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value69": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.69",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value70": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.70",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value71": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.71",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value72": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.72",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value73": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.73",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value74": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.74",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value75": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.75",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value76": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.76",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value77": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.77",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value78": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.78",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value79": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.79",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              },
+              "value80": {
+                "widgetData": {
+                  "widgetId": "WID-4.1.1.80",
+                  "caption": "",
+                  "value": "",
+                  "unit": "",
+                  "digitalData": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  }
+}

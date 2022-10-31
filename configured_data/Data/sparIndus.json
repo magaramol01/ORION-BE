@@ -1,0 +1,545 @@
+{
+  "widget_5.1": {
+    "name": "Cylinder",
+    "type": "sparindus_me_table",
+    "screen": "Screen5",
+    "socketId": "subscribeToSparIndusME",
+    "layout": {
+      "i": "6de5b9d2-a7f9-5df6-9g8e-c1719gecf7f6",
+      "x": 0,
+      "y": 0,
+      "h": 223,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 43,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Spar Indus Main Engine",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "captions": {
+            "tableData": {
+              "table1": {
+                "group1": {
+                  "caption": "",
+                  "level": 1,
+                  "data": {
+                    "row1": {
+                      "level": 1,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-661",
+                            "caption": "M/E P.C.O. INLET TEMP.",
+                            "value": "mapping_@_A61",
+                            "unit": "°C"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-662",
+                            "caption": "M/E CONTROL AIR INLET PRESS.",
+                            "value": "mapping_@_A71",
+                            "unit": "Mpa"
+                          }
+                        }
+                      }
+                    },
+                    "row2": {
+                      "level": 2,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-663",
+                            "caption": "M/E F.O. INLET TEMP.",
+                            "value": "mapping_@_A69",
+                            "unit": "℃"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-664",
+                            "caption": "M/E F.O. INLET PRESS.",
+                            "value": "mapping_@_A73",
+                            "unit": "Mpa"
+                          }
+                        }
+                      }
+                    },
+                    "row3": {
+                      "level": 3,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-665",
+                            "caption": "M/E T/C L.O. OUTLET TEMP.",
+                            "value": "mapping_@_A58",
+                            "unit": "℃"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-666",
+                            "caption": "M/E STARTING AIR INLET PRESS.",
+                            "value": "mapping_@_A79",
+                            "unit": "Mpa"
+                          }
+                        }
+                      }
+                    },
+                    "row4": {
+                      "level": 4,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-667",
+                            "caption": "M/E MAIN L.O. INLET PRESS.",
+                            "value": "mapping_@_A74",
+                            "unit": "Mpa"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-668",
+                            "caption": "M/E MAIN L.O. INLET TEMP.",
+                            "value": "mapping_@_A81",
+                            "unit": "℃"
+                          }
+                        }
+                      }
+                    },
+                    "row5": {
+                      "level": 4,
+                      "colData": {
+                        "col1": {
+                          "widgetData": {
+                            "widgetId": "WID-667",
+                            "caption": "M/E EXH. V/V SPRING AIR INLET PRESS.",
+                            "value": "mapping_@_A72",
+                            "unit": "Mpa"
+                          }
+                        },
+                        "col2": {
+                          "widgetData": {
+                            "widgetId": "WID-668",
+                            "caption": "M/E CYL. JACKET C.F.W. INLET PRESS.",
+                            "value": "mapping_@_A77",
+                            "unit": "Mpa"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-301",
+                "caption": "M/E CLY. EXH. GAS OUTLET TEMP(°C)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-302",
+                "caption": "M/E CYL. SCAVENGE AIR BOX FIRE(℃)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-303",
+                "caption": "M/E CYL. J.C.W. OUT. TEMP(℃)",
+                "value": "",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-304",
+                "caption": "M/E CYL. P.C.O. OUTLET TEMP(℃)",
+                "value": "",
+                "unit": ""
+              }
+            }
+          },
+          "cyl1": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-321",
+                "caption": "",
+                "value": "mapping_@_A46",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-322",
+                "caption": "",
+                "value": "mapping_@_A64",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-323",
+                "caption": "",
+                "value": "mapping_@_A53",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-324",
+                "caption": "",
+                "value": "mapping_@_A83",
+                "unit": ""
+              }
+            }
+          },
+          "cyl2": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-341",
+                "caption": "",
+                "value": "mapping_@_A47",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-342",
+                "caption": "",
+                "value": "mapping_@_A65",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-343",
+                "caption": "",
+                "value": "mapping_@_A54",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-344",
+                "caption": "",
+                "value": "mapping_@_A84",
+                "unit": ""
+              }
+            }
+          },
+          "cyl3": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-361",
+                "caption": "",
+                "value": "mapping_@_A48",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-362",
+                "caption": "",
+                "value": "mapping_@_A66",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-363",
+                "caption": "",
+                "value": "mapping_@_A55",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-364",
+                "caption": "",
+                "value": "mapping_@_A85",
+                "unit": ""
+              }
+            }
+          },
+          "cyl4": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-381",
+                "caption": "",
+                "value": "mapping_@_A49",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-382",
+                "caption": "",
+                "value": "mapping_@_A67",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-383",
+                "caption": "",
+                "value": "mapping_@_A56",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-384",
+                "caption": "",
+                "value": "mapping_@_A86",
+                "unit": ""
+              }
+            }
+          },
+          "cyl5": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-381",
+                "caption": "",
+                "value": "mapping_@_A50",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-382",
+                "caption": "",
+                "value": "mapping_@_A68",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-383",
+                "caption": "",
+                "value": "mapping_@_A57",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-384",
+                "caption": "",
+                "value": "mapping_@_A87",
+                "unit": ""
+              }
+            }
+          },
+          "propeller": {
+            "value1": {
+              "widgetData": {
+                "widgetId": "WID-651",
+                "caption": "",
+                "value": "mapping_@_",
+                "unit": ""
+              }
+            },
+            "value2": {
+              "widgetData": {
+                "widgetId": "WID-652",
+                "caption": "",
+                "value": "mapping_@_",
+                "unit": ""
+              }
+            },
+            "value3": {
+              "widgetData": {
+                "widgetId": "WID-653",
+                "caption": "",
+                "value": "mapping_@_",
+                "unit": ""
+              }
+            },
+            "value4": {
+              "widgetData": {
+                "widgetId": "WID-654",
+                "caption": "INTERMEDIATE SHAFT BEARING TEMP.",
+                "value": "mapping_@_A08",
+                "unit": "°C"
+              }
+            },
+            "value5": {
+              "widgetData": {
+                "widgetId": "WID-655",
+                "caption": "STERN TUBE BEARING TEMP.",
+                "value": "mapping_@_A09",
+                "unit": "°C"
+              }
+            },
+            "value6": {
+              "widgetData": {
+                "widgetId": "WID-656",
+                "caption": "",
+                "value": "mapping_@_",
+                "unit": ""
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+
+  "widget_5.2": {
+    "name": "Spar Indus ME Accordion",
+    "type": "sparindus_me_accordion",
+    "screen": "Screen5",
+    "socketId": "subscribeToSparIndusME",
+    "layout": {
+      "i": "25c0a1da-350d-4dcc-acb3-e114638d7fda",
+      "x": 0,
+      "y": 222,
+      "h": 138,
+      "w": 12,
+      "minW": 0,
+      "minH": 0,
+      "maxW": 12,
+      "maxH": 26,
+      "static": true,
+      "isDraggable": false,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Spar Indus ME",
+        "configuration": {
+          "isShow": false
+        }
+      },
+      "body": {
+        "data": {
+          "carousel1": {
+            "acc1": {
+              "level": 1,
+              "widgetData": {
+                "widgetId": "WID-140",
+                "caption": "",
+                "value": "",
+                "unit": ""
+              },
+              "accordionName": "main-engine-1",
+              "iconClass": "",
+              "type": 4,
+              "tableData": {
+                "table1": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-501",
+                              "caption": "M/E A/C C.W. INLET PRESS",
+                              "value": "mapping_@_A78",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-502",
+                              "caption": "M/E SCAV. AIR INLET PRESS",
+                              "value": "mapping_@_A80",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "table2": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-513",
+                              "caption": "M/E T/V DAMPER L.O. INLET PRESS.",
+                              "value": "mapping_@_A89",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-514",
+                              "caption": "COOL. S.W. PUMP OUT. PRESS.",
+                              "value": "mapping_@_A90",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "table3": {
+                  "group1": {
+                    "caption": "",
+                    "level": 1,
+                    "data": {
+                      "row1": {
+                        "level": 1,
+                        "colData": {
+                          "col1": {
+                            "widgetData": {
+                              "widgetId": "WID-525",
+                              "caption": "NO.1 MAIN AIR RECEIVER PRESS.IND.",
+                              "value": "mapping_@_A91",
+                              "unit": "Mpa"
+                            }
+                          },
+                          "col2": {
+                            "widgetData": {
+                              "widgetId": "WID-526",
+                              "caption": "NO.2 MAIN AIR RECEIVER PRESS.IND.",
+                              "value": "mapping_@_A92",
+                              "unit": "Mpa"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  }
+}

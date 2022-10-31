@@ -1,0 +1,2778 @@
+{
+    "widget_1": {
+        "name": "Vessel Necessary Information",
+        "type": "dash_home_information_carousel",
+        "screen": "Screen1",
+        "socketId": "subscribeToDashboard",
+        "layout": {
+            "i": "widget_1",
+            "x": 0,
+            "y": 0,
+            "h": 161,
+            "w": 3,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {
+                    "carousel1": {
+                        "group1": {
+                            "caption": "Fuel",
+                            "level": 1,
+                            "data": {
+                                "row1": {
+                                    "level": 1,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.1",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.2",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row2": {
+                                    "level": 2,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.3",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.4",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row3": {
+                                    "level": 3,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.5",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.6",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "group2": {
+                            "caption": "Navigation",
+                            "level": 2,
+                            "data": {
+                                "row4": {
+                                    "level": 4,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.7",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            },
+                                            "additionalValue": {
+                                                "widgetData": {
+                                                    "value": "",
+                                                    "widgetId": "WID-1.1.1.7.1",
+                                                    "caption": "",
+                                                    "unit": ""
+                                                }
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.8",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            },
+                                            "additionalValue": {
+                                                "widgetData": {
+                                                    "value": "",
+                                                    "widgetId": "WID-1.1.1.8.1",
+                                                    "caption": "",
+                                                    "unit": ""
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "row5": {
+                                    "level": 5,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.9",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.10",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row6": {
+                                    "level": 6,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.11",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.1.12",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "carousel2": {
+                        "group1": {
+                            "caption": "Fuel-Meter",
+                            "level": 1,
+                            "data": {
+                                "row1": {
+                                    "level": 1,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.1",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.2",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row2": {
+                                    "level": 2,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.3",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.4",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row3": {
+                                    "level": 3,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.5",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.6",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "group2": {
+                            "caption": "Navigation",
+                            "level": 1,
+                            "data": {
+                                "row4": {
+                                    "level": 4,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.7",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.8",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row5": {
+                                    "level": 5,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.9",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.10",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row6": {
+                                    "level": 6,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.11",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.2.12",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "carousel3": {
+                        "group1": {
+                            "caption": "Fuel-Draft",
+                            "level": 1,
+                            "data": {
+                                "row1": {
+                                    "level": 1,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.1",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.2",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row2": {
+                                    "level": 2,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.3",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.4",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row3": {
+                                    "level": 3,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.5",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            },
+                                            "additionalValue": {
+                                                "widgetData": {
+                                                    "value": "",
+                                                    "widgetId": "WID-1.1.3.5.1",
+                                                    "caption": "",
+                                                    "unit": ""
+                                                }
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.6",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            },
+                                            "additionalValue": {
+                                                "widgetData": {
+                                                    "value": "",
+                                                    "widgetId": "WID-1.1.3.6.1",
+                                                    "caption": "",
+                                                    "unit": ""
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "group2": {
+                            "caption": "Navigation",
+                            "level": 1,
+                            "data": {
+                                "row4": {
+                                    "level": 4,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.7",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.8",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row5": {
+                                    "level": 5,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.9",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.10",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "row6": {
+                                    "level": 6,
+                                    "colData": {
+                                        "col1": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.11",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        },
+                                        "col2": {
+                                            "widgetData": {
+                                                "widgetId": "WID-1.1.3.12",
+                                                "caption": "",
+                                                "value": "",
+                                                "unit": "",
+                                                "startValue": "",
+                                                "endValue": "",
+                                                "precision": "",
+                                                "minValue": "",
+                                                "maxValue": "",
+                                                "lowerBoundValue": "",
+                                                "upperBoundValue": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_2": {
+        "name": "Leaflet Windy Map",
+        "type": "leaflet_map",
+        "screen": "Screen1",
+        "socketId": "subscribeToDashboard",
+        "layout": {
+            "i": "widget_2",
+            "x": 3,
+            "y": 0,
+            "h": 161,
+            "w": 6,
+            "minW": 3,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Leaflet Windy Map",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {}
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_3": {
+        "name": "Dashboard Home Carousel",
+        "type": "dash_home_3_carousel",
+        "screen": "Screen1",
+        "socketId": "subscribeToDashboard",
+        "layout": {
+            "i": "widget_3",
+            "x": 0,
+            "y": 159,
+            "h": 110,
+            "w": 9,
+            "minW": 3,
+            "minH": 20,
+            "maxW": 12,
+            "maxH": 80,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Route Forecast",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+
+                },
+                "data": {
+                    "carousel1": {
+                        "acc1": {
+                            "level": 1,
+                            "widgetData": {
+                                "widgetId": "WID-1.2.1",
+                                "caption": "Main Engine",
+                                "value": "",
+                                "unit": ""
+                            },
+                            "accordionName": "Main Engine",
+                            "iconClass": "main-engine-icon",
+                            "type": 1,
+                            "noOfGaugesInRow": 6,
+                            "gaugesData": {
+                                "gauge1": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.7",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.13",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_1",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.1.1",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75
+                                },
+                                "gauge2": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.8",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.14",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_2",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.1.2",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75
+                                },
+                                "gauge3": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.9",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.15",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_3",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.1.3",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75
+                                },
+                                "gauge4": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.10",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.16",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_4",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.1.4",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75
+                                },
+                                "gauge5": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.11",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.17",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_5",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.1.5",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75
+                                },
+                                "gauge6": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.12",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.1.18",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_6",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.1.6",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75
+                                }
+                            },
+                            "tableData": {
+                                "table1": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.19",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.20",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.21",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.22",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.23",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.24",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table2": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.25",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.26",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.27",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.28",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.29",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.30",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table3": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.31",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.32",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.33",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.34",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.35",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.1.36",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "summarizedData": {
+                                "value1": {
+                                    "value": 99.7,
+                                    "unit": "°C",
+                                    "desc": "Temperature"
+                                },
+                                "value2": {
+                                    "value": 12.5,
+                                    "unit": "km/h",
+                                    "desc": "Speed"
+                                },
+                                "value3": {
+                                    "value": 48.05,
+                                    "unit": "%",
+                                    "desc": "Output CE Cal."
+                                }
+                            }
+                        }
+                    },
+                    "carousel2": {
+                        "acc2": {
+                            "level": 1,
+                            "widgetData": {
+                                "widgetId": "WID-1.2.2",
+                                "caption": "Auxiliary Engines",
+                                "value": "",
+                                "unit": ""
+                            },
+                            "accordionName": "Aux Engine",
+                            "iconClass": "aux-engine-icon",
+                            "type": 2,
+                            "noOfGaugesInRow": 3,
+                            "gaugesData": {
+                                "gauge1": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.2.4",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.2.7",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_7",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.2.1",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75,
+                                    "tableData": {
+                                        "group1": {
+                                            "caption": "",
+                                            "level": 1,
+                                            "data": {
+                                                "row1": {
+                                                    "level": 1,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.10",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "row2": {
+                                                    "level": 2,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.11",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "row3": {
+                                                    "level": 3,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.12",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "gauge2": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.2.5",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.2.8",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_8",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.2.2",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75,
+                                    "tableData": {
+                                        "group1": {
+                                            "caption": "",
+                                            "level": 1,
+                                            "data": {
+                                                "row1": {
+                                                    "level": 1,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.13",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "row2": {
+                                                    "level": 2,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.14",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "row3": {
+                                                    "level": 3,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.15",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "gauge3": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.2.6",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-1.2.2.9",
+                                            "caption": "",
+                                            "value": "",
+                                            "unit": "",
+                                            "startValue": "",
+                                            "endValue": "",
+                                            "precision": "",
+                                            "minValue": "",
+                                            "maxValue": "",
+                                            "lowerBoundValue": "",
+                                            "upperBoundValue": ""
+                                        }
+                                    },
+                                    "renderTo": "unit_9",
+                                    "widgetData": {
+                                        "widgetId": "WID-1.2.2.3",
+                                        "widgetName": "Semi Circular Gauge Widget",
+                                        "caption": "",
+                                        "value": "",
+                                        "unit": "",
+                                        "startValue": "",
+                                        "endValue": "",
+                                        "precision": "",
+                                        "minValue": "",
+                                        "maxValue": "",
+                                        "lowerBoundValue": "",
+                                        "upperBoundValue": ""
+                                    },
+                                    "strokeWidth": 3,
+                                    "strokeLinecap": "round",
+                                    "textSize": "14px",
+                                    "textColor": "#2FE3FF",
+                                    "pathColor": "rgb(47, 227, 255)",
+                                    "trailColor": "#334455",
+                                    "circleRatio": 0.5,
+                                    "rotation": 0.75,
+                                    "tableData": {
+                                        "group1": {
+                                            "caption": "",
+                                            "level": 1,
+                                            "data": {
+                                                "row1": {
+                                                    "level": 1,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.16",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "row2": {
+                                                    "level": 2,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.17",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "row3": {
+                                                    "level": 3,
+                                                    "colData": {
+                                                        "col1": {
+                                                            "widgetData": {
+                                                                "widgetId": "WID-1.2.2.18",
+                                                                "caption": "",
+                                                                "value": "",
+                                                                "unit": "",
+                                                                "startValue": "",
+                                                                "endValue": "",
+                                                                "precision": "",
+                                                                "minValue": "",
+                                                                "maxValue": "",
+                                                                "lowerBoundValue": "",
+                                                                "upperBoundValue": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "tableData": {
+                                "table1": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.19",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.20",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.21",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.22",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.23",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.24",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table2": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.25",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.26",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.27",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.28",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.29",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.30",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table3": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.31",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.32",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.33",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.34",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.35",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.2.36",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "summarizedData": {
+                                "value1": {
+                                    "value": 780,
+                                    "unit": "KW",
+                                    "desc": "Total Load"
+                                },
+                                "value2": {
+                                    "value": 111,
+                                    "unit": "m3",
+                                    "desc": "Total Steam Time"
+                                }
+                            }
+                        }
+                    },
+                    "carousel3": {
+                        "acc3": {
+                            "level": 1,
+                            "widgetData": {
+                                "widgetId": "WID-1.2.3",
+                                "caption": "Auxiliaries",
+                                "value": "",
+                                "unit": ""
+                            },
+                            "accordionName": "Auxiliaries",
+                            "type": 3,
+                            "iconClass": "jet-engine-icon",
+                            "noOfGaugesInRow": 6,
+                            "tableData": {
+                                "table1": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.1",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.2",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.3",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.4",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.5",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.6",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row4": {
+                                                "level": 4,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.7",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.8",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row5": {
+                                                "level": 5,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.9",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.10",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row6": {
+                                                "level": 5,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.11",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.12",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table2": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.13",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.14",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.15",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.16",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.17",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.18",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row4": {
+                                                "level": 4,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.19",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.20",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row5": {
+                                                "level": 5,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.21",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.22",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row6": {
+                                                "level": 6,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.23",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-1.2.3.24",
+                                                            "caption": "",
+                                                            "value": "",
+                                                            "unit": "",
+                                                            "startValue": "",
+                                                            "endValue": "",
+                                                            "precision": "",
+                                                            "minValue": "",
+                                                            "maxValue": "",
+                                                            "lowerBoundValue": "",
+                                                            "upperBoundValue": ""
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "summarizedData": {
+                                "value1": {
+                                    "value": 330,
+                                    "unit": "m3",
+                                    "desc": "Total Running Time"
+                                },
+                                "value2": {
+                                    "value": 11,
+                                    "unit": "°C",
+                                    "desc": "Gas In Temperature"
+                                },
+                                "value3": {
+                                    "value": 21,
+                                    "unit": "°C",
+                                    "desc": "Gas Out Temperature"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_4": {
+        "name": "Observant",
+        "type": "observant",
+        "screen": "Screen1",
+        "socketId": "subscribeToDashboard",
+        "layout": {
+            "i": "widget_4",
+            "x": 9,
+            "y": 0,
+            "h": 364,
+            "w": 3,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Alarms",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {
+                    "height": "671"
+                },
+                "observantType": "alarm"
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    }
+
+}

@@ -1,0 +1,1264 @@
+{
+	"widget_5.1": {
+		"name": "Vessel Necessary Information",
+		"type": "dash_home_information_carousel",
+		"screen": "Screen1",
+		"socketId": "subscribeToCharterParty",
+		"layout": {
+			"i": "widget_5.1",
+			"x": 0,
+			"y": 0,
+			"h": 161,
+			"w": 3,
+			"minW": 3,
+			"minH": 0,
+			"maxW": 3,
+			"maxH": 27.3,
+			"static": true,
+			"isDraggable": false,
+			"isResizable": false
+		},
+		"configuration": {
+			"header": {
+				"text": "Vessel Necessary Information",
+				"configuration": {
+					"isShow": false,
+					"alignment": "center"
+				}
+			},
+			"body": {
+				"configuration": {
+				},
+				"data": {
+					"carousel1": {
+						"group1": {
+							"caption": "Fuel",
+							"level": 1,
+							"data": {
+								"row1": {
+									"level": 1,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.1",
+												"caption": "ME Fuel Cons. Rate",
+												"value": "mapping_@_AI03B001",
+												"unit": "kg/h",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.2",
+												"caption": "CO2 Emission",
+												"value": "mapping_@_AI03B021",
+												"unit": "kg/h",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row2": {
+									"level": 2,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.3",
+												"caption": "AE Fuel Cons. Rate",
+												"value": "mapping_@_AI03B002",
+												"unit": "kg/h",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.4",
+												"caption": "SOX Emission",
+												"value": "mapping_@_AI03B022",
+												"unit": "kg/h",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row3": {
+									"level": 3,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.5",
+												"caption": "BLR Fuel Cons. Rate",
+												"value": "mapping_@_AI03B003",
+												"unit": "kg/h",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.6",
+												"caption": "NOX Emission",
+												"value": "mapping_@_AI03B023",
+												"unit": "kg/h",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								}
+							}
+						},
+						"group2": {
+							"caption": "Navigation",
+							"level": 2,
+							"data": {
+								"row4": {
+									"level": 4,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.7",
+												"caption": "GPS Latitude",
+												"value": "mapping_@_GPGLL_1",
+												"unit": "°",
+												"additionalValue": "mapping_@_GPGLL_2"
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.8",
+												"caption": "GPS Longitude",
+												"value": "mapping_@_GPGLL_3",
+												"unit": "°",
+												"additionalValue": "mapping_@_GPGLL_4"
+											}
+										}
+									}
+								},
+								"row5": {
+									"level": 5,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.9",
+												"caption": "Rel. Wind Speed",
+												"value": "mapping_@_WIMWV_3",
+												"unit": "kn",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.10",
+												"caption": "Rel. Wind Direction",
+												"value": "mapping_@_WIMWV_1",
+												"unit": "°",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row6": {
+									"level": 6,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.11",
+												"caption": "Vessel Heading",
+												"value": "mapping_@_HEHDT_1",
+												"unit": "°",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.1.12",
+												"caption": "Speed Thru Water",
+												"value": "mapping_@_VDVBW_1",
+												"unit": "kn",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"carousel2": {
+						"group1": {
+							"caption": "Fuel-Meter",
+							"level": 1,
+							"data": {
+								"row1": {
+									"level": 1,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.1",
+												"caption": "F.M.ME Supp. Temp.",
+												"value": "mapping_@_AI03B008",
+												"unit": "°C",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.2",
+												"caption": "F.M.ME Ret. Temp.",
+												"value": "mapping_@_AI03B010",
+												"unit": "°C",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row2": {
+									"level": 2,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.3",
+												"caption": "F.M.AE Supp. Temp.",
+												"value": "mapping_@_AI03B012",
+												"unit": "°C",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.4",
+												"caption": "F.M.AE Ret. Temp.",
+												"value": "mapping_@_AI03B014",
+												"unit": "°C",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row3": {
+									"level": 3,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.5",
+												"caption": "F.M.BLR Supp. Temp.",
+												"value": "mapping_@_AI03B016",
+												"unit": "°C",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.6",
+												"caption": "F.M.BLR Ret. Temp.",
+												"value": "mapping_@_AI03B018",
+												"unit": "°C",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								}
+							}
+						},
+						"group2": {
+							"caption": "Navigation",
+							"level": 1,
+							"data": {
+								"row4": {
+									"level": 4,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.7",
+												"caption": "Wave Height",
+												"value": "mapping_@_stormGlassWaveHeight",
+												"unit": "mts",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.8",
+												"caption": "Wave Direction",
+												"value": "mapping_@_stormGlassWaveDirection",
+												"unit": "°",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row5": {
+									"level": 5,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.9",
+												"caption": "Swell Height",
+												"value": "mapping_@_stormGlassSwellHeight",
+												"unit": "mts",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.10",
+												"caption": "Swell Direction",
+												"value": "mapping_@_stormGlassSwellDirection",
+												"unit": "°",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row6": {
+									"level": 6,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.11",
+												"caption": "Current Speed",
+												"value": "mapping_@_stormGlassCurrentSpeed",
+												"unit": "kn",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.2.12",
+												"caption": "Current Direction",
+												"value": "mapping_@_stormGlassCurrentDirection",
+												"unit": "°",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"carousel3": {
+						"group1": {
+							"caption": "Fuel-Draft",
+							"level": 1,
+							"data": {
+								"row1": {
+									"level": 1,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.1",
+												"caption": "ME Fuel Eff.",
+												"value": "mapping_@_AI03B019",
+												"unit": "%",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.2",
+												"caption": "AE Fuel Eff.",
+												"value": "mapping_@_AI03B020",
+												"unit": "%",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row2": {
+									"level": 2,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.3",
+												"caption": "ME Est. Engine Load",
+												"value": "mapping_@_AI02C026",
+												"unit": "%",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.4",
+												"caption": "PMS Online Power",
+												"value": "mapping_@_AI02B003",
+												"unit": "KW",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row3": {
+									"level": 3,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.5",
+												"caption": "Mean Draft",
+												"value": "mapping_@_AI03C002",
+												"unit": "mts",
+												"additionalValue": "mapping_@_AI03C001"
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.6",
+												"caption": "Trim",
+												"value": "mapping_@_AI03C002",
+												"unit": "mts",
+												"additionalValue": "mapping_@_AI03C001"
+											}
+										}
+									}
+								}
+							}
+						},
+						"group2": {
+							"caption": "Navigation",
+							"level": 1,
+							"data": {
+								"row4": {
+									"level": 4,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.7",
+												"caption": "Draft Fwd",
+												"value": "mapping_@_AI03C001",
+												"unit": "mts",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.8",
+												"caption": "Draft Aft",
+												"value": "mapping_@_AI03C002",
+												"unit": "mts",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row5": {
+									"level": 5,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.9",
+												"caption": "Draft Mid (P)",
+												"value": "mapping_@_AI03C003",
+												"unit": "mts",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.10",
+												"caption": "Draft Mid (S)",
+												"value": "mapping_@_AI03C004",
+												"unit": "mts",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								},
+								"row6": {
+									"level": 6,
+									"colData": {
+										"col1": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.11",
+												"caption": "Rudder Angle",
+												"value": "mapping_@_AI001",
+												"unit": "°",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										},
+										"col2": {
+											"widgetData": {
+												"widgetId": "WID-5.1.3.12",
+												"caption": "Rate Of Turn",
+												"value": "mapping_@_TIROT_1",
+												"unit": "°/min",
+												"precision": "",
+												"startValue": "",
+												"endValue": "",
+												"minValue": "",
+												"maxValue": "",
+												"lowerBoundValue": "",
+												"upperBoundValue": "",
+												"hideMinValue": "",
+												"hideMaxValue": ""
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			"panel": {
+				"isTransparent": false
+			}
+		}
+	},
+
+	"widget_5.2": {
+		"name": "Leaflet Windy Map",
+		"type": "leaflet_map",
+		"screen": "Screen1",
+		"socketId": "subscribeToCharterParty",
+		"layout": {
+			"i": "widget_5.2",
+			"x": 3,
+			"y": 0,
+			"h": 161,
+			"w": 6,
+			"minW": 3,
+			"minH": 20,
+			"maxW": 12,
+			"maxH": 80,
+			"static": false,
+			"isDraggable": true,
+			"isResizable": false
+		},
+		"configuration": {
+			"header": {
+				"text": "Leaflet Windy Map",
+				"configuration": {
+					"isShow": false,
+					"alignment": "center"
+				}
+			},
+			"body": {
+				"configuration": {
+				},
+				"data": {}
+			},
+			"panel": {
+				"isTransparent": false
+			}
+		}
+	},
+
+	"widget_5.3": {
+		"name": "Dashboard Home Carousel",
+		"type": "dash_home_3_carousel",
+		"screen": "Screen1",
+		"socketId": "subscribeToCharterParty",
+		"layout": {
+			"i": "widget_5.3",
+			"x": 0,
+			"y": 159,
+			"h": 110,
+			"w": 9,
+			"minW": 3,
+			"minH": 20,
+			"maxW": 12,
+			"maxH": 80,
+			"static": false,
+			"isDraggable": true,
+			"isResizable": false
+		},
+		"configuration": {
+			"header": {
+				"text": "Vessel Route Forecast",
+				"configuration": {
+					"isShow": false,
+					"alignment": "center"
+				}
+			},
+			"body": {
+				"configuration": {
+				},
+				"data": {
+					"carousel1": {
+						"acc1": {
+							"level": 1,
+							"widgetData": {
+								"widgetId": "WID-5.3.1",
+								"caption": "Charter Party",
+								"value": "",
+								"unit": ""
+							},
+							"accordionName": "Charter Party",
+							"iconClass": "main-engine-icon",
+							"type": 5,
+							"fuelSpeedData": {
+								"table1": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.2",
+															"caption": "Charter Party Consumption",
+															"value": "",
+															"unit": "MT"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"table2": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.3",
+															"caption": "Daily Avg Fuel Consumption",
+															"value": "mapping_@_AI02C001SLD",
+															"unit": "MT"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"table3": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.4",
+															"caption": "Charter Party Speed",
+															"value": "",
+															"unit": "kts"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"table4": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.5",
+															"caption": "Daily average speed widgets",
+															"value": "mapping_@_AI02C002SLD",
+															"unit": "kts"
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"reChartsData": {
+								"reChart1": {
+									"widgetData": {
+										"widgetId": "WID-5.3.6",
+										"caption": "AE Fuel Cons. Rate",
+										"value": "mapping_@_AI03B002",
+										"unit": "kg/h"
+									},
+									"minValue": 0,
+									"maxValue": 300,
+									"lowerBoundValue": 100,
+									"upperBoundValue": 200,
+									"strokeWidth": 3,
+									"strokeLinecap": "round",
+									"textSize": "14px",
+									"textColor": "#2FE3FF",
+									"pathColor": "rgb(47, 227, 255)",
+									"trailColor": "#334455",
+									"circleRatio": 0.5,
+									"rotation": 0.75
+								},
+								"reChart2": {
+									"widgetData": {
+										"widgetId": "WID-5.3.7",
+										"caption": "Speed Thru Water",
+										"value": "mapping_@_VDVBW_1",
+										"unit": "kn"
+									},
+									"minValue": 0,
+									"maxValue": 50,
+									"lowerBoundValue": 25,
+									"upperBoundValue": 50,
+									"strokeWidth": 3,
+									"strokeLinecap": "round",
+									"textSize": "14px",
+									"textColor": "#2FE3FF",
+									"pathColor": "rgb(47, 227, 255)",
+									"trailColor": "#334455",
+									"circleRatio": 0.5,
+									"rotation": 0.75
+								}
+							},
+							"tableData": {
+								"table1": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.8",
+															"caption": "ME RPM",
+															"value": "mapping_@_AI01C063",
+															"unit": "rpm"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.9",
+															"caption": "ME CMCR",
+															"value": "mapping_@_AI02C208",
+															"unit": "rpm"
+														}
+													}
+												}
+											},
+											"row2": {
+												"level": 2,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.10",
+															"caption": "ME Rel. Eng. Speed",
+															"value": "mapping_@_AI02C206",
+															"unit": "%"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.11",
+															"caption": "ME T/C 1 Speed",
+															"value": "mapping_@_AI02C027",
+															"unit": "rpm"
+														}
+													}
+												}
+											},
+											"row3": {
+												"level": 3,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.12",
+															"caption": "ME Avl. Power",
+															"value": "mapping_@_AI02C028",
+															"unit": "%"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.13",
+															"caption": "ME Rat. Elec. Load",
+															"value": "mapping_@_AI02C207",
+															"unit": "KW"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"table2": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.14",
+															"caption": "ME FO Inlet Press.",
+															"value": "mapping_@_AI010502",
+															"unit": "Mpa"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.15",
+															"caption": "ME FO Inlet Temp.",
+															"value": "mapping_@_AO000207",
+															"unit": "°C"
+														}
+													}
+												}
+											},
+											"row2": {
+												"level": 2,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.16",
+															"caption": "ME Cross. BO Inlet Press.",
+															"value": "mapping_@_AI020610SLD",
+															"unit": "Mpa"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.17",
+															"caption": "ME BO Inlet Press.",
+															"value": "mapping_@_AI020602SLD",
+															"unit": "Mpa"
+														}
+													}
+												}
+											},
+											"row3": {
+												"level": 3,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.18",
+															"caption": "ME Servo Oil Press.",
+															"value": "mapping_@_AI02C059",
+															"unit": "Mpa"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.19",
+															"caption": "ME Fuel Rail Press.",
+															"value": "mapping_@_AI02C066",
+															"unit": "Mpa"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"table3": {
+									"group1": {
+										"caption": "",
+										"level": 1,
+										"data": {
+											"row1": {
+												"level": 1,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.20",
+															"caption": "Shaft RPM",
+															"value": "mapping_@_AI03B004",
+															"unit": "rpm"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.21",
+															"caption": "ME Start Air Press.",
+															"value": "mapping_@_AI02C089",
+															"unit": "Mpa"
+														}
+													}
+												}
+											},
+											"row2": {
+												"level": 2,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.22",
+															"caption": "Shaft Torque",
+															"value": "mapping_@_AI03B005",
+															"unit": "N.m"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.23",
+															"caption": "ME Scav. Air Press. Mean",
+															"value": "mapping_@_AI02C030",
+															"unit": "Mpa"
+														}
+													}
+												}
+											},
+											"row3": {
+												"level": 3,
+												"colData": {
+													"col1": {
+														"widgetData": {
+															"widgetId": "WID-5.3.24",
+															"caption": "Shaft Power",
+															"value": "mapping_@_AI03B006",
+															"unit": "KW"
+														}
+													},
+													"col2": {
+														"widgetData": {
+															"widgetId": "WID-5.3.25",
+															"caption": "ME Scav. Air Press. CMCR",
+															"value": "mapping_@_AI02C209",
+															"unit": "Mpa"
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			"panel": {
+				"isTransparent": false
+			}
+		}
+	},
+
+	"widget_5.4": {
+		"name": "Observant",
+		"type": "observant",
+		"screen": "Screen1",
+		"socketId": "subscribeToCharterParty",
+		"layout": {
+			"i": "widget_5.4",
+			"x": 9,
+			"y": 0,
+			"h": 183,
+			"w": 3,
+			"minW": 3,
+			"minH": 0,
+			"maxW": 3,
+			"maxH": 27.3,
+			"static": true,
+			"isDraggable": false,
+			"isResizable": false
+		},
+		"configuration": {
+			"header": {
+				"text": "Alarms",
+				"configuration": {
+					"isShow": false,
+					"alignment": "center"
+				}
+			},
+			"body": {
+				"configuration": {
+					"height": "309"
+				},
+				"observantType": "navigationAlert"
+			},
+			"panel": {
+				"isTransparent": false
+			}
+		}
+	},
+
+	"widget_5.5": {
+		"name": "Observant",
+		"type": "observant",
+		"screen": "Screen1",
+		"socketId": "subscribeToCharterParty",
+		"layout": {
+			"i": "widget_5.5",
+			"x": 9,
+			"y": 181.7,
+			"h": 183,
+			"w": 3,
+			"minW": 3,
+			"minH": 0,
+			"maxW": 3,
+			"maxH": 27.3,
+			"static": true,
+			"isDraggable": false,
+			"isResizable": false
+		},
+		"configuration": {
+			"header": {
+				"text": "Alerts",
+				"configuration": {
+					"isShow": false,
+					"alignment": "center"
+				}
+			},
+			"body": {
+				"configuration": {
+					"height": "309"
+				},
+				"observantType": "charterParty"
+			},
+			"panel": {
+				"isTransparent": false
+			}
+		}
+	}
+}

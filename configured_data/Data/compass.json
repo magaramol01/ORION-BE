@@ -1,0 +1,135 @@
+{
+  "widget_1": {
+    "name": "Leaflet Windy Map",
+    "type": "leaflet_map_compass",
+    "screen": "Screen1",
+    "socketId": "subscribeToCompass",
+    "layout": {
+      "i": "widget_1",
+      "x": 0,
+      "y": 0,
+      "h": 170,
+      "w": 4,
+      "minW": 3,
+      "minH": 20,
+      "maxW": 12,
+      "maxH": 80,
+      "static": false,
+      "isDraggable": true,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Leaflet Windy Map",
+        "configuration": {
+          "isShow": false,
+          "alignment": "left"
+        }
+      },
+      "body": {
+        "configuration": {
+        },
+        "data": {}
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_2": {
+    "name": "fullScreenCompass",
+    "type": "fullScreen_compass",
+    "screen": "Screen1",
+    "socketId": "subscribeToCompass",
+    "layout": {
+      "i": "widget_2",
+      "x": 4,
+      "y": 0,
+      "h": 170,
+      "w": 8,
+      "minW": 3,
+      "minH": 20,
+      "maxW": 12,
+      "maxH": 80,
+      "static": false,
+      "isDraggable": true,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "compass",
+        "configuration": {
+          "isShow": false,
+          "alignment": "left"
+        }
+      },
+      "body": {
+        "configuration": {
+        },
+        "data": {}
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  },
+  "widget_3": {
+    "name": "Multiline Graph",
+    "type": "multiline_graph",
+    "screen": "Screen1",
+    "socketId": "subscribeToCompass",
+    "layout": {
+      "i": "widget_3",
+      "x": 0,
+      "y": 110,
+      "h": 170,
+      "w": 12,
+      "minW": 3,
+      "minH": 20,
+      "maxW": 12,
+      "maxH": 80,
+      "static": false,
+      "isDraggable": true,
+      "isResizable": false
+    },
+    "configuration": {
+      "header": {
+        "text": "Multiline Graph",
+        "configuration": {
+          "isShow": false,
+          "alignment": "left"
+        }
+      },
+      "body": {
+        "configuration": {
+        },
+        "data": {
+          "carousel3": {
+            "acc3": {
+              "summarizedData": {
+                "value1": {
+                  "value": 330,
+                  "unit": "m3",
+                  "desc": "Total Running Time"
+                },
+                "value2": {
+                  "value": 11,
+                  "unit": "°C",
+                  "desc": "Gas In Temperature"
+                },
+                "value3": {
+                  "value": 21,
+                  "unit": "°C",
+                  "desc": "Gas Out Temperature"
+                }
+              }
+            }
+          }
+        }
+      },
+      "panel": {
+        "isTransparent": false
+      }
+    }
+  }
+}

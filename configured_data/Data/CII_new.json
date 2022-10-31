@@ -1,0 +1,767 @@
+{
+    "widget_6.11": {
+        "name": "CII Filter Panel",
+        "type": "cii_filter_panel",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.11",
+            "x": 0,
+            "y": 0,
+            "h": 38,
+            "w": 12,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "CII Filter Panel",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "voyageData": {
+                        "widgetData": {
+                            "widgetId": "WID-6.11.1",
+                            "caption": "Select Voyage",
+                            "value": "mapping_@_voyagesFilter",
+                            "unit": ""
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.2": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.2",
+            "x": 0,
+            "y": 37,
+            "h": 56,
+            "w": 5,
+            "minW": 4,
+            "minH": 0,
+            "maxW": 4,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "Departure",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.2.1",
+                                            "caption": "Port",
+                                            "value": "mapping_@_departurePort",
+                                            "unit": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.2.2",
+                                            "caption": "EU Port",
+                                            "value": "mapping_@_departureEUPort",
+                                            "unit": ""
+                                        }
+                                    }
+                                }
+                            },
+                            "row2": {
+                                "level": 2,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.2.3",
+                                            "caption": "Departure Date",
+                                            "value": "mapping_@_departureLTTime",
+                                            "unit": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.2.4",
+                                            "caption": "Time Zone : UTC",
+                                            "value": "mapping_@_departureTimeZone",
+                                            "unit": ""
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.3": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.3",
+            "x": 5,
+            "y": 37,
+            "h": 56,
+            "w": 5,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "Arrival",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.3.1",
+                                            "caption": "Port",
+                                            "value": "mapping_@_arrivalPort",
+                                            "unit": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.3.2",
+                                            "caption": "EU Port",
+                                            "value": "mapping_@_arrivalEUPort",
+                                            "unit": ""
+                                        }
+                                    }
+                                }
+                            },
+                            "row2": {
+                                "level": 2,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.3.3",
+                                            "caption": "Arrival Date",
+                                            "value": "mapping_@_arrivalLTTime",
+                                            "unit": ""
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.3.4",
+                                            "caption": "Time Zone : UTC",
+                                            "value": "mapping_@_arrivalTimeZone",
+                                            "unit": ""
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.4": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.4",
+            "x": 10,
+            "y": 37,
+            "h": 56,
+            "w": 2,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "At Sea",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.4.1",
+                                            "caption": "Transport Work Done",
+                                            "value": "mapping_@_transportWorkDoneCII",
+                                            "unit": ""
+                                        }
+                                    }
+                                }
+                            },
+                            "row2": {
+                                "level": 2,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.4.2",
+                                            "caption": "Draft Displacement",
+                                            "value": "mapping_@_displacementValue",
+                                            "unit": "MT"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.5": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.5",
+            "x": 0,
+            "y": 92,
+            "h": 78,
+            "w": 2,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "Total Consumption",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.5.1",
+                                            "caption": "Heavy Fuel Oil",
+                                            "value": "mapping_@_totalConsumptionHeavyFuelOil",
+                                            "unit": "MT"
+                                        }
+                                    }
+                                }
+                            },
+                            "row2": {
+                                "level": 2,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.5.2",
+                                            "caption": "Very Low Sulphur Fuel Oil",
+                                            "value": "mapping_@_totalConsumptionVeryLowSulphurFuelOil",
+                                            "unit": "MT"
+                                        }
+                                    }
+                                }
+                            },
+                            "row3": {
+                                "level": 3,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.5.3",
+                                            "caption": "Very Low Sulphur Gas Oil",
+                                            "value": "mapping_@_totalConsumptionVeryLowSulphurGasOil",
+                                            "unit": "MT"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.6": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.6",
+            "x": 2,
+            "y": 92,
+            "h": 78,
+            "w": 4,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "Consumption",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.6.1",
+                                            "caption": "At Berth - Heavy Fuel Oil",
+                                            "value": "mapping_@_consumptionAtBerthHFO",
+                                            "unit": "MT"
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.6.2",
+                                            "caption": "At Sea - Heavy Fuel Oil",
+                                            "value": "mapping_@_consumptionAtSeaHFO",
+                                            "unit": "MT"
+                                        }
+                                    }
+                                }
+                            },
+                            "row2": {
+                                "level": 2,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.6.3",
+                                            "caption": "At Berth - Marine Gas Oil",
+                                            "value": "mapping_@_consumptionAtBerthMGO",
+                                            "unit": "MT"
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.6.4",
+                                            "caption": "At Sea - Marine Gas Oil",
+                                            "value": "mapping_@_consumptionAtSeaMGO",
+                                            "unit": "MT"
+                                        }
+                                    }
+                                }
+                            },
+                            "row3": {
+                                "level": 3,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.6.5",
+                                            "caption": "Ultra Low Sulphur Gas Oil",
+                                            "value": "mapping_@_totalConsumptionULSGO",
+                                            "unit": "MT"
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.6.6",
+                                            "caption": "Total Sailing Distance (NM)",
+                                            "value": "mapping_@_consumptionDistanceOverGround",
+                                            "unit": "NM"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.7": {
+        "name": "Bar Chart",
+        "type": "bar_chart",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.7",
+            "x": 6,
+            "y": 92,
+            "h": 78,
+            "w": 6,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Consumption (MT)",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "widgetData": {
+                        "widgetId": "WID-6.7.1",
+                        "caption": "",
+                        "value": "mapping_@_consumptionHFOMGOBarGraphData",
+                        "unit": ""
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.8": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.8",
+            "x": 0,
+            "y": 169,
+            "h": 35,
+            "w": 4,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "Draft Value",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.8.1",
+                                            "caption": "Draft Fwd ",
+                                            "value": "mapping_@_draftfwd",
+                                            "unit": "mts"
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.8.2",
+                                            "caption": "Draft Aft",
+                                            "value": "mapping_@_draftaft",
+                                            "unit": "mts"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.9": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.9",
+            "x": 4,
+            "y": 169,
+            "h": 35,
+            "w": 4,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "CO2",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.9.1",
+                                            "caption": "CII CO2",
+                                            "value": "mapping_@_totalCO2",
+                                            "unit": "(kg)"
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.9.2",
+                                            "caption": "Attained CII ",
+                                            "value": "mapping_@_attainedCII",
+                                            "unit": "(g/(NM x tn))"
+                                        }
+                                    },
+                                    "col3": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.9.3",
+                                            "caption": "CII Rating",
+                                            "value": "mapping_@_ciiRating",
+                                            "unit": ""
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.10": {
+        "name": "MRV Information Panel 1",
+        "type": "mrv_informational_panel1",
+        "screen": "Screen6",
+        "socketId": "subscribeToMRV",
+        "layout": {
+            "i": "widget_6.10",
+            "x": 8,
+            "y": 169,
+            "h": 35,
+            "w": 4,
+            "minW": 3,
+            "minH": 0,
+            "maxW": 3,
+            "maxH": 27.3,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Vessel Necessary Information",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "center"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "group1": {
+                        "caption": "Time",
+                        "level": 1,
+                        "data": {
+                            "row1": {
+                                "level": 1,
+                                "colData": {
+                                    "col1": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.10.1",
+                                            "caption": "Time at Sea ",
+                                            "value": "mapping_@_calculatedTimeAtSeaInH",
+                                            "unit": "h"
+                                        }
+                                    },
+                                    "col2": {
+                                        "widgetData": {
+                                            "widgetId": "WID-6.10.2",
+                                            "caption": "Time at Berth",
+                                            "value": "mapping_@_calculatedTimeAtBerthInH",
+                                            "unit": "h"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+    "widget_6.12": {
+        "name": "CIIGraph",
+        "type": "dash_home_information_carousel",
+        "screen": "Screen1",
+        "socketId": "subscribeToCII",
+        "layout": {
+            "i": "widget_2",
+            "x": 0,
+            "y": 0,
+            "h": 320,
+            "w": 12,
+            "minW": 12,
+            "minH": 320,
+            "maxW": 12,
+            "maxH": 320,
+            "static": false,
+            "isDraggable": true,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "CII Graph",
+                "configuration": {
+                    "isShow": false,
+                    "alignment": "left"
+                }
+            },
+            "body": {
+                "configuration": {},
+                "data": {
+                    "carousel2": {
+                        "group1": {
+                            "caption": "CII Graph 2",
+                            "data": {
+                                "widgetData": {
+                                    "widgetId": "WID-7.2.1.2",
+                                    "caption": "",
+                                    "value": "mapping_@_ciigraphbydate",
+                                    "unit": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    }
+}

@@ -1,0 +1,1433 @@
+{
+    "widget_11": {
+        "name": "Cylinder",
+        "type": "main_engine_cylinder",
+        "screen": "Screen2",
+        "socketId": "subscribeToMainEngine",
+        "layout": {
+            "i": "5ce5b9d2-a7f9-4ac7-8f9d-b0608fdbd6d5",
+            "x": 0,
+            "y": 0,
+            "h": 223,
+            "w": 12,
+            "minW": 0,
+            "minH": 0,
+            "maxW": 12,
+            "maxH": 43,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Main Engine",
+                "configuration": {
+                    "isShow": false
+                }
+            },
+            "body": {
+                "data": {
+                    "captions": {
+                        "tableData": {
+                            "table1": {
+                                "group1": {
+                                    "caption": "Turbocharger",
+                                    "level": 1,
+                                    "data": {
+                                        "row1": {
+                                            "level": 1,
+                                            "colData": {
+                                                "col1": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-661",
+                                                        "caption": "SPEED",
+                                                        "value": "mapping_@_AI02C027",
+                                                        "unit": "rpm"
+                                                    }
+                                                },
+                                                "col2": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-662",
+                                                        "caption": "",
+                                                        "value": "",
+                                                        "unit": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "row2": {
+                                            "level": 2,
+                                            "colData": {
+                                                "col1": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-663",
+                                                        "caption": "AIR TEMP. BEFORE I/L (A)",
+                                                        "value": "mapping_@_AI02C096",
+                                                        "unit": "℃"
+                                                    }
+                                                },
+                                                "col2": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-664",
+                                                        "caption": "AIR TEMP. BEFORE I/L (B)",
+                                                        "value": "mapping_@_AI02C097",
+                                                        "unit": "°C"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "row3": {
+                                            "level": 3,
+                                            "colData": {
+                                                "col1": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-665",
+                                                        "caption": "BRG. OIL IN. PR.",
+                                                        "value": "mapping_@_AI030506SLD",
+                                                        "unit": "Mpa"
+                                                    }
+                                                },
+                                                "col2": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-666",
+                                                        "caption": "BRG. OIL OUT. TEMP.",
+                                                        "value": "mapping_@_AI030505SLD",
+                                                        "unit": "°C"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "row4": {
+                                            "level": 4,
+                                            "colData": {
+                                                "col1": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-667",
+                                                        "caption": "OUT. EX.GAS TEMP.",
+                                                        "value": "mapping_@_AI030504SLD",
+                                                        "unit": "℃"
+                                                    }
+                                                },
+                                                "col2": {
+                                                    "widgetData": {
+                                                        "widgetId": "WID-668",
+                                                        "caption": "IN. EX. GAS TEMP.",
+                                                        "value": "mapping_@_AI030503SLD",
+                                                        "unit": "℃"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-301",
+                                "caption": "EXH. GAS OUT. TEMP. HIGH CYL(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-302",
+                                "caption": "EXH. GAS OUT. TEMP. DEV. CYL(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-303",
+                                "caption": "SCAV. AIR FIRE CYL TEMP.(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-304",
+                                "caption": "PISTON COOLING OIL OUT. TEMP.CYL(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-305",
+                                "caption": "CYL. COOLING WATER OUT. TEMP. CYL(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-306",
+                                "caption": "FIRING PR. CYL.(Mpa)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-307",
+                                "caption": "LINER WALL TEMP. AFT.CYL(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-308",
+                                "caption": "LINER WALL TEMP. FWD CYL(℃)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-309",
+                                "caption": "COMPR. PR. CYL.(Mpa)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-310",
+                                "caption": "COMP. PR. BAL. OFF. EXH. VALVE CYL.(°)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-311",
+                                "caption": "L.O.FEED RATE CYL.(mg/kWh)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-312",
+                                "caption": "START OF INJ. CYL.(°)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-313",
+                                "caption": "INJ. DURATION CYL.(us)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-314",
+                                "caption": "FIRING PR. BAL. INJ. OFF. CYL.(°)",
+                                "value": "",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "cyl1": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-321",
+                                "caption": "",
+                                "value": "mapping_@_AI02C001SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-322",
+                                "caption": "",
+                                "value": "mapping_@_DEV1SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-323",
+                                "caption": "",
+                                "value": "mapping_@_AI010101SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-324",
+                                "caption": "",
+                                "value": "mapping_@_AI020103SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-325",
+                                "caption": "",
+                                "value": "mapping_@_AI030101SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-326",
+                                "caption": "",
+                                "value": "mapping_@_AI02C192",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-327",
+                                "caption": "",
+                                "value": "mapping_@_AI02C031SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-328",
+                                "caption": "",
+                                "value": "mapping_@_AI02C043SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-329",
+                                "caption": "",
+                                "value": "mapping_@_AI02C178",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-330",
+                                "caption": "",
+                                "value": "mapping_@_AI02C185",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-331",
+                                "caption": "",
+                                "value": "mapping_@_AI02C171",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-332",
+                                "caption": "",
+                                "value": "mapping_@_AI02C153",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-333",
+                                "caption": "",
+                                "value": "mapping_@_AI02C159",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-334",
+                                "caption": "",
+                                "value": "mapping_@_AI02C199",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "cyl2": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-341",
+                                "caption": "",
+                                "value": "mapping_@_AI02C002SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-342",
+                                "caption": "",
+                                "value": "mapping_@_DEV2SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-343",
+                                "caption": "",
+                                "value": "mapping_@_AI010102SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-344",
+                                "caption": "",
+                                "value": "mapping_@_AI020104SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-345",
+                                "caption": "",
+                                "value": "mapping_@_AI030102SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-346",
+                                "caption": "",
+                                "value": "mapping_@_AI02C193",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-347",
+                                "caption": "",
+                                "value": "mapping_@_AI02C032SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-348",
+                                "caption": "",
+                                "value": "mapping_@_AI02C044SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-349",
+                                "caption": "",
+                                "value": "mapping_@_AI02C179",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-350",
+                                "caption": "",
+                                "value": "mapping_@_AI02C186",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-351",
+                                "caption": "",
+                                "value": "mapping_@_AI02C172",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-352",
+                                "caption": "",
+                                "value": "mapping_@_AI02C154",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-353",
+                                "caption": "",
+                                "value": "mapping_@_AI02C160",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-354",
+                                "caption": "",
+                                "value": "mapping_@_AI02C200",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "cyl3": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-361",
+                                "caption": "",
+                                "value": "mapping_@_AI02C003SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-362",
+                                "caption": "",
+                                "value": "mapping_@_DEV3SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-363",
+                                "caption": "",
+                                "value": "mapping_@_AI010103SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-364",
+                                "caption": "",
+                                "value": "mapping_@_AI020105SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-365",
+                                "caption": "",
+                                "value": "mapping_@_AI030103SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-366",
+                                "caption": "",
+                                "value": "mapping_@_AI02C194",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-367",
+                                "caption": "",
+                                "value": "mapping_@_AI02C033SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-368",
+                                "caption": "",
+                                "value": "mapping_@_AI02C045SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-369",
+                                "caption": "",
+                                "value": "mapping_@_AI02C180",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-370",
+                                "caption": "",
+                                "value": "mapping_@_AI02C187",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-371",
+                                "caption": "",
+                                "value": "mapping_@_AI02C173",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-372",
+                                "caption": "",
+                                "value": "mapping_@_AI02C155",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-373",
+                                "caption": "",
+                                "value": "mapping_@_AI02C161",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-374",
+                                "caption": "",
+                                "value": "mapping_@_AI02C201",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "cyl4": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-381",
+                                "caption": "",
+                                "value": "mapping_@_AI02C004SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-382",
+                                "caption": "",
+                                "value": "mapping_@_DEV4SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-383",
+                                "caption": "",
+                                "value": "mapping_@_AI010104SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-384",
+                                "caption": "",
+                                "value": "mapping_@_AI020106SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-385",
+                                "caption": "",
+                                "value": "mapping_@_AI030104SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-386",
+                                "caption": "",
+                                "value": "mapping_@_AI02C195",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-387",
+                                "caption": "",
+                                "value": "mapping_@_AI02C034SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-388",
+                                "caption": "",
+                                "value": "mapping_@_AI02C046SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-389",
+                                "caption": "",
+                                "value": "mapping_@_AI02C181",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-390",
+                                "caption": "",
+                                "value": "mapping_@_AI02C188",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-391",
+                                "caption": "",
+                                "value": "mapping_@_AI02C174",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-392",
+                                "caption": "",
+                                "value": "mapping_@_AI02C156",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-393",
+                                "caption": "",
+                                "value": "mapping_@_AI02C162",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-394",
+                                "caption": "",
+                                "value": "mapping_@_AI02C202",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "cyl5": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-401",
+                                "caption": "",
+                                "value": "mapping_@_AI02C005SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-402",
+                                "caption": "",
+                                "value": "mapping_@_DEV5SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-403",
+                                "caption": "",
+                                "value": "mapping_@_AI010105SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-404",
+                                "caption": "",
+                                "value": "mapping_@_AI020107SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-405",
+                                "caption": "",
+                                "value": "mapping_@_AI030105SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-406",
+                                "caption": "",
+                                "value": "mapping_@_AI02C196",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-407",
+                                "caption": "",
+                                "value": "mapping_@_AI02C035SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-408",
+                                "caption": "",
+                                "value": "mapping_@_AI02C047SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-409",
+                                "caption": "",
+                                "value": "mapping_@_AI02C182",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-410",
+                                "caption": "",
+                                "value": "mapping_@_AI02C189",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-411",
+                                "caption": "",
+                                "value": "mapping_@_AI02C175",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-412",
+                                "caption": "",
+                                "value": "mapping_@_AI02C157",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-413",
+                                "caption": "",
+                                "value": "mapping_@_AI02C163",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-414",
+                                "caption": "",
+                                "value": "mapping_@_AI02C203",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "cyl6": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-421",
+                                "caption": "",
+                                "value": "mapping_@_AI02C006SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-422",
+                                "caption": "",
+                                "value": "mapping_@_DEV6SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-423",
+                                "caption": "",
+                                "value": "mapping_@_AI010106SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-424",
+                                "caption": "",
+                                "value": "mapping_@_AI020108SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-425",
+                                "caption": "",
+                                "value": "mapping_@_AI030106SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-426",
+                                "caption": "",
+                                "value": "mapping_@_AI02C197",
+                                "unit": ""
+                            }
+                        },
+                        "value7": {
+                            "widgetData": {
+                                "widgetId": "WID-427",
+                                "caption": "",
+                                "value": "mapping_@_AI02C036SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value8": {
+                            "widgetData": {
+                                "widgetId": "WID-428",
+                                "caption": "",
+                                "value": "mapping_@_AI02C048SLD",
+                                "unit": ""
+                            }
+                        },
+                        "value9": {
+                            "widgetData": {
+                                "widgetId": "WID-429",
+                                "caption": "",
+                                "value": "mapping_@_AI02C183",
+                                "unit": ""
+                            }
+                        },
+                        "value10": {
+                            "widgetData": {
+                                "widgetId": "WID-430",
+                                "caption": "",
+                                "value": "mapping_@_AI02C190",
+                                "unit": ""
+                            }
+                        },
+                        "value11": {
+                            "widgetData": {
+                                "widgetId": "WID-431",
+                                "caption": "",
+                                "value": "mapping_@_AI02C176",
+                                "unit": ""
+                            }
+                        },
+                        "value12": {
+                            "widgetData": {
+                                "widgetId": "WID-432",
+                                "caption": "",
+                                "value": "mapping_@_AI02C158",
+                                "unit": ""
+                            }
+                        },
+                        "value13": {
+                            "widgetData": {
+                                "widgetId": "WID-433",
+                                "caption": "",
+                                "value": "mapping_@_AI02C164",
+                                "unit": ""
+                            }
+                        },
+                        "value14": {
+                            "widgetData": {
+                                "widgetId": "WID-434",
+                                "caption": "",
+                                "value": "mapping_@_AI02C204",
+                                "unit": ""
+                            }
+                        }
+                    },
+                    "propeller": {
+                        "value1": {
+                            "widgetData": {
+                                "widgetId": "WID-651",
+                                "caption": "INTERMEDIATE SHAFT BEARING",
+                                "value": "mapping_@_AI030203",
+                                "unit": "°C"
+                            }
+                        },
+                        "value2": {
+                            "widgetData": {
+                                "widgetId": "WID-652",
+                                "caption": "THRUST BRG. FWD.",
+                                "value": "mapping_@_AI010108SLD",
+                                "unit": "°C"
+                            }
+                        },
+                        "value3": {
+                            "widgetData": {
+                                "widgetId": "WID-653",
+                                "caption": "STERN TUBE AFT BRG.",
+                                "value": "mapping_@_AI030202SLD",
+                                "unit": "°C"
+                            }
+                        },
+                        "value4": {
+                            "widgetData": {
+                                "widgetId": "WID-654",
+                                "caption": "SHAFT TORQUE",
+                                "value": "mapping_@_AI03B005",
+                                "unit": "kNm"
+                            }
+                        },
+                        "value5": {
+                            "widgetData": {
+                                "widgetId": "WID-655",
+                                "caption": "SHAFT RPM",
+                                "value": "mapping_@_AI03B004",
+                                "unit": "rpm"
+                            }
+                        },
+                        "value6": {
+                            "widgetData": {
+                                "widgetId": "WID-656",
+                                "caption": "SHAFT POWER",
+                                "value": "mapping_@_AI03B006",
+                                "unit": "kW"
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    },
+
+    "widget_12": {
+        "name": "Main Engine Accordion",
+        "type": "main_engine_accordion",
+        "screen": "Screen2",
+        "socketId": "subscribeToMainEngine",
+        "layout": {
+            "i": "a1ec6ff3-8a08-41d3-967a-2d82b51d845b",
+            "x": 0,
+            "y": 222,
+            "h": 138,
+            "w": 12,
+            "minW": 0,
+            "minH": 0,
+            "maxW": 12,
+            "maxH": 26,
+            "static": true,
+            "isDraggable": false,
+            "isResizable": false
+        },
+        "configuration": {
+            "header": {
+                "text": "Main Engine",
+                "configuration": {
+                    "isShow": false
+                }
+            },
+            "body": {
+                "data": {
+                    "carousel1": {
+                        "acc1": {
+                            "level": 1,
+                            "widgetData": {
+                                "widgetId": "WID-140",
+                                "caption": "",
+                                "value": "",
+                                "unit": ""
+                            },
+                            "accordionName": "main-engine-1",
+                            "iconClass": "",
+                            "type": 4,
+                            "tableData": {
+                                "table1": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-501",
+                                                            "caption": "WATER CONTENT IN LUB. OIL",
+                                                            "value": "mapping_@_AI010501",
+                                                            "unit": "aw"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-502",
+                                                            "caption": "FO IN. PR.",
+                                                            "value": "mapping_@_AI010502",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-503",
+                                                            "caption": "CTRL. AIR PR. AT ENG. IN.",
+                                                            "value": "mapping_@_AI010503",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-504",
+                                                            "caption": "CYL. COOL. WATER IN. PR.",
+                                                            "value": "mapping_@_AI020601",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-505",
+                                                            "caption": "BRG. OIL IN. PR.",
+                                                            "value": "mapping_@_AI020602",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-506",
+                                                            "caption": "AIR SPRING PR.",
+                                                            "value": "mapping_@_AI020605",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row4": {
+                                                "level": 4,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-507",
+                                                            "caption": "CTRL. AIR PR. AT S.U.",
+                                                            "value": "mapping_@_AI020606",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-508",
+                                                            "caption": "STBY CTRL. AIR PR. AT S.U.",
+                                                            "value": "mapping_@_AI020607",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row5": {
+                                                "level": 5,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-509",
+                                                            "caption": "CYL. LO IN. PR.",
+                                                            "value": "mapping_@_AI020608",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-510",
+                                                            "caption": "CYL. LUB. SYS. SERVO OIL PR.",
+                                                            "value": "mapping_@_AI020609",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row6": {
+                                                "level": 6,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-511",
+                                                            "caption": "CROSSHEAD BRG. OIL IN. PR.",
+                                                            "value": "mapping_@_AI020610",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-512",
+                                                            "caption": "SCAV. AIR COOLER WATER IN. PR.",
+                                                            "value": "mapping_@_AI030501",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table2": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-513",
+                                                            "caption": "L.O IN. PR.",
+                                                            "value": "mapping_@_AO000202",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-514",
+                                                            "caption": "F.O IN. TEMP. TO SCR",
+                                                            "value": "mapping_@_AO000207",
+                                                            "unit": "°C"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-515",
+                                                            "caption": "RPM",
+                                                            "value": "mapping_@_AI01C063",
+                                                            "unit": "rpm"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-516",
+                                                            "caption": "MFI DEMAND",
+                                                            "value": "mapping_@_AI02C057",
+                                                            "unit": "％t"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-517",
+                                                            "caption": "EST. ENGINE LOAD",
+                                                            "value": "mapping_@_AI02C026",
+                                                            "unit": "％"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-518",
+                                                            "caption": "FUEL MARGIN",
+                                                            "value": "mapping_@_AI02C029",
+                                                            "unit": "％"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row4": {
+                                                "level": 4,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-519",
+                                                            "caption": "BAROMETRIC PR. #1",
+                                                            "value": "mapping_@_AI02C094",
+                                                            "unit": "mbar"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-520",
+                                                            "caption": "BAROMETRIC PR. #2",
+                                                            "value": "mapping_@_AI02C095",
+                                                            "unit": "mbar"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row5": {
+                                                "level": 5,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-521",
+                                                            "caption": "LIMITED MFI PID MAX VAL.",
+                                                            "value": "mapping_@_AI02C058",
+                                                            "unit": "％"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-522",
+                                                            "caption": "SERVO OIL PR.",
+                                                            "value": "mapping_@_AI02C059",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row6": {
+                                                "level": 6,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-523",
+                                                            "caption": "SERVO OIL PR. S/P BAR",
+                                                            "value": "mapping_@_AI02C060",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-524",
+                                                            "caption": "MEAN FUEL RAIL PR.",
+                                                            "value": "mapping_@_AI02C065",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "table3": {
+                                    "group1": {
+                                        "caption": "",
+                                        "level": 1,
+                                        "data": {
+                                            "row1": {
+                                                "level": 1,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-525",
+                                                            "caption": "MAIN FUEL RAIL PR.",
+                                                            "value": "mapping_@_AI02C066",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-526",
+                                                            "caption": "FUEL PR. S/P",
+                                                            "value": "mapping_@_AI02C067",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row2": {
+                                                "level": 2,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-527",
+                                                            "caption": "F.O. P/P S/P MASTER CTRL.",
+                                                            "value": "mapping_@_AI02C073",
+                                                            "unit": "％"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-528",
+                                                            "caption": "F.O. P/P S/P SLAVE CTRL.",
+                                                            "value": "mapping_@_AI02C074",
+                                                            "unit": "％"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row3": {
+                                                "level": 3,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-529",
+                                                            "caption": "No. OF ACTIVE INJ. NOZZLES",
+                                                            "value": "mapping_@_AI02C140",
+                                                            "unit": ""
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-530",
+                                                            "caption": "COMP.PR.BAL.OFF. EXH. VALVES AVG.",
+                                                            "value": "mapping_@_AI02C191",
+                                                            "unit": "°"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row4": {
+                                                "level": 4,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-531",
+                                                            "caption": "FQS VALUE",
+                                                            "value": "mapping_@_AI02C141",
+                                                            "unit": "°"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-532",
+                                                            "caption": "FIRING PR.BAL.INJ.OFF. AVG.",
+                                                            "value": "mapping_@_AI02C205",
+                                                            "unit": "°"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row5": {
+                                                "level": 5,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-533",
+                                                            "caption": "COMP. PR. AVERAGE",
+                                                            "value": "mapping_@_AI02C184",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-534",
+                                                            "caption": "FIRING PR. AVERAGE",
+                                                            "value": "mapping_@_AI02C198",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "row6": {
+                                                "level": 6,
+                                                "colData": {
+                                                    "col1": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-535",
+                                                            "caption": "EXH. GAS AVERAGE TEMP.",
+                                                            "value": "mapping_@_AI02C210",
+                                                            "unit": "℃"
+                                                        }
+                                                    },
+                                                    "col2": {
+                                                        "widgetData": {
+                                                            "widgetId": "WID-536",
+                                                            "caption": "CYL. COOLING WATER PR.",
+                                                            "value": "mapping_@_AI02C211",
+                                                            "unit": "Mpa"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "panel": {
+                "isTransparent": false
+            }
+        }
+    }
+}
